@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "5363d72944b31df6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e60d051a3519601",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebce13165e067217",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "游戏开发/游戏开发入门.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a59f566d73deff51",
+    "type": "split",
+    "children": [
+      {
+        "id": "49fa9b80698b0eef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "637bedbfaa7462f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9725b6ca34eb9895",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9afc1008b6a4b5b4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "83157dc970aa33c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "b16f12bc9ab2cdb5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4038eaea8dd84d88",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "游戏开发/游戏开发入门.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3fb145d8bbf454ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "游戏开发/游戏开发入门.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f693dc8c467b6b00",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "游戏开发/游戏开发入门.md"
+              }
+            }
+          },
+          {
+            "id": "2bb7d0559e5c9f41",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false
+    }
+  },
+  "active": "2bb7d0559e5c9f41",
+  "lastOpenFiles": [
+    "主页.md",
+    "index.md",
+    "游戏开发/游戏开发入门.md",
+    "游戏开发"
+  ]
+}
