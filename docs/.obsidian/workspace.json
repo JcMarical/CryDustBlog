@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/游戏开发入门.md",
+                "file": "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/游戏开发入门.md",
+                "file": "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/游戏开发入门.md",
+                "file": "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/游戏开发入门.md"
+                "file": "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md"
               }
             }
           },
@@ -143,11 +143,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "2bb7d0559e5c9f41",
+  "active": "ebce13165e067217",
   "lastOpenFiles": [
+    "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
+    "C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
+    "游戏开发/游戏开发入门.md",
+    "C++/Effective C++读书笔记",
+    "C++",
     "主页.md",
     "index.md",
-    "游戏开发/游戏开发入门.md",
     "游戏开发"
   ]
 }
