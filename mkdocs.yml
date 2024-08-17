@@ -1,28 +1,71 @@
-site_name: CryDust's Blog
-repo_url: https://github.com/linyuxuanlin/Wiki-nonsense #（请修改为你自己的仓库地址）
+site_name: 晶尘CryDust's Blog
+repo_url: https://github.com/JcMarical/CryDustBlog #（请修改为你自己的仓库地址）
 edit_uri: edit/main/docs/
 
 theme:
-    name: material
-    palette:
+  name: material
+  language: zh
+  favicon: assets/favicon.ico
 
-    # Light mode
+  font:
+    text: "'LXGW WenKai Screen', 'Noto Sans SC', 'Microsoft YaHei', sans-serif"
+    code: "'JetBrains Mono', 'LXGW WenKai Screen', 'Noto Sans SC', 'Microsoft YaHei', sans-serif"
+
+  icon:
+    repo: fontawesome/brands/github
+    logo: octicons/stack-24
+    edit: material/pencil
+    tag:
+      default: fontawesome/solid/hashtag
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/circle-slice-4
+        name: Auto Mode
+
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
-      accent: indigo
+      primary: white
       toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+        icon: material/circle-slice-8
+        name: Light Mode
 
-    # Dark mode
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: blue
+      primary: black
       toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+        icon: material/circle-outline
+        name: Dark Mode
+
+  features:
+    - announce.dismiss
+
+    - content.tooltips
+    - content.code.copy
+    # - content.code.annotate
+    - content.action.edit
+
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.top
+    - navigation.path
+    # - navigation.indexes
+    # - navigation.tracking
+    # - navigation.footer
+    # - navigation.sections
+
+    - toc.follow
+    # - toc.integrate
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
 
 # Extensions
 markdown_extensions:
@@ -42,4 +85,27 @@ markdown_extensions:
 
 plugins:
   - search
- # - roamlinks 
+  - roamlinks 
+  - blog:
+      enabled: true
+      blog_toc: true
+      post_dir: obsidian-vault/posts
+      post_date_format: yyyy-MM-dd
+      post_url_format: "posts/{slug}"
+      post_excerpt: required
+      post_excerpt_max_authors: 0
+      post_readtime: true
+      post_readtime_words_per_minute: 180
+      archive: true
+      archive_date_format: yyyy 年 MM 月
+      archive_url_date_format: yyyy/MM
+      archive_toc: true
+      categories: true
+      categories_url_format: "categories/{slug}"
+      categories_toc: true
+      authors: false
+      pagination: true
+      pagination_per_page: 10
+      pagination_format: "~2~"
+      pagination_if_single_page: true
+      pagination_keep_content: true

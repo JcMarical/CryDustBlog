@@ -146,10 +146,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "144b42f97860fc8a",
+  "active": "dc5944a344d90a73",
   "lastOpenFiles": [
+    "Pasted image 20240818024342.png",
+    "docs/index.md",
+    "Pasted image 20240818024327.png",
+    "README.md",
+    "images",
+    "Pasted image 20240818024129.png",
+    "docs/C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
+    "docs/blog/index.md",
     "docs/主页.md",
-    "docs/游戏开发/游戏开发入门.md",
-    "docs/index.md"
+    "docs/游戏开发/游戏开发入门.md"
   ]
 }

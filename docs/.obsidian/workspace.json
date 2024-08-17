@@ -11,11 +11,10 @@
             "id": "ebce13165e067217",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
-                "mode": "source",
-                "source": true
+                "file": "docs/C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,6 +140,10 @@
   },
   "active": "ebce13165e067217",
   "lastOpenFiles": [
+    "obsidian-vault/posts",
+    "obsidian-vault",
+    "blog/index.md",
+    "blog",
     "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
     "C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
     "游戏开发/游戏开发入门.md",
