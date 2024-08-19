@@ -11,10 +11,11 @@
             "id": "ebce13165e067217",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "docs/C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
-                "staged": false
+                "file": "游戏开发/UI框架/游戏UI框架设计概览.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏开发/UI框架/游戏UI框架设计概览.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏开发/UI框架/游戏UI框架设计概览.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "游戏开发/UI框架/游戏UI框架设计概览.md"
+              }
             }
           },
           {
@@ -130,27 +135,48 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "command-palette:打开命令面板": false,
-      "random-note:开始漫游笔记": false,
-      "workspaces:管理工作区布局": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
   "active": "ebce13165e067217",
   "lastOpenFiles": [
-    "obsidian-vault/posts",
-    "obsidian-vault",
-    "blog/index.md",
-    "blog",
-    "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
-    "C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
     "游戏开发/游戏开发入门.md",
-    "C++/Effective C++读书笔记",
-    "C++",
-    "主页.md",
+    "游戏开发/UI框架/游戏UI框架设计概览.md",
+    "图形动画",
+    "图形渲染",
+    "网络/Socket.md",
+    "游戏开发/UI框架",
+    "游戏开发/Untitled.canvas",
+    "游戏开发/网络框架",
+    "游戏开发/动作系统",
+    "Lua/《{Programming in Lua》/《Programming in Lua》实战.md",
+    "网络",
+    "Lua/《{Programming in Lua》/《Programming in Lua》基础知识.md",
+    "Lua/Lua 垃圾回收.md",
+    "Lua/Lua 协程.md",
     "index.md",
-    "游戏开发"
+    "Lua/LUA入门.md",
+    "Lua/Lua和C Sharp内存管理.md",
+    "Lua/Lua 元表.md",
+    "Lua/《{Programming in Lua》",
+    "Lua/LUA/《{Programming in Lua》/《Programming in Lua》实战.md",
+    "Lua/LUA/《{Programming in Lua》/《Programming in Lua》基础知识.md",
+    "Lua/LUA/《{Programming in Lua》",
+    "Lua/LUA/Lua和C Sharp内存管理.md",
+    "Lua/LUA/LUA入门.md",
+    "Lua/LUA/Lua 垃圾回收.md",
+    "Lua/LUA/Lua 协程.md",
+    "Lua/LUA/Lua 元表.md",
+    "Lua/LUA",
+    "Lua",
+    "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
+    "blog/index.md",
+    "C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
+    "主页.md"
   ]
 }
