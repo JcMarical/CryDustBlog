@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/游戏开发/UGUI/纹理与图集打包.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/游戏开发/UGUI/纹理与图集打包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/游戏开发/UGUI/纹理与图集打包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/游戏开发/UGUI/纹理与图集打包.md"
               }
             }
           }
@@ -148,15 +148,23 @@
   },
   "active": "dc5944a344d90a73",
   "lastOpenFiles": [
-    "Pasted image 20240818024342.png",
+    "docs/网络/TCP和UDP.md",
+    "docs/游戏开发/UGUI/纹理与图集打包.md",
+    "docs/游戏开发/UGUI",
+    "docs/网络/帧同步和状态同步.md",
+    "docs/网络/Socket.md",
+    "docs/C++/基础知识/⭐牛客与笔试--奇葩题目大全.md",
+    "docs/C++/基础知识/⭐传值，深拷贝和浅拷贝.md",
+    "docs/C++/基础知识/⭐⭐⭐虚函数与多态.md",
+    "docs/blog/index.md",
+    "docs/游戏开发/游戏开发入门.md",
     "docs/index.md",
+    "Pasted image 20240818024342.png",
     "Pasted image 20240818024327.png",
     "README.md",
     "images",
     "Pasted image 20240818024129.png",
     "docs/C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
-    "docs/blog/index.md",
-    "docs/主页.md",
-    "docs/游戏开发/游戏开发入门.md"
+    "docs/主页.md"
   ]
 }

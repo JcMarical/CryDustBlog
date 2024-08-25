@@ -13,13 +13,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/UI框架/游戏UI框架设计概览.md",
+                "file": "C++/基础知识/⭐RTTI和类型转换.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "c172e32fee60af62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e88e1bd9959c305a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络/Socket.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5b1b89d610e0da03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络/TCP和UDP.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "92a116a6645a02c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络/TCP和UDP.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4b4fe1e492c67933",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/基础知识/⭐传值，深拷贝和浅拷贝.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "07fe5223c690fbf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/基础知识/⭐指针和引用的区别.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -85,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/UI框架/游戏UI框架设计概览.md",
+                "file": "C++/基础知识/⭐指针和引用的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/UI框架/游戏UI框架设计概览.md",
+                "file": "C++/基础知识/⭐指针和引用的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/UI框架/游戏UI框架设计概览.md"
+                "file": "C++/基础知识/⭐指针和引用的区别.md"
               }
             }
           },
@@ -127,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -135,48 +208,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "random-note:Open random note": false,
-      "workspaces:Manage workspace layouts": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "ebce13165e067217",
+  "active": "637bedbfaa7462f5",
   "lastOpenFiles": [
-    "游戏开发/游戏开发入门.md",
-    "游戏开发/UI框架/游戏UI框架设计概览.md",
+    "C++/基础知识/⭐传值，深拷贝和浅拷贝.md",
+    "网络/帧同步和状态同步.md",
+    "网络/Socket.md",
+    "网络/TCP和UDP.md",
+    "图形学/Shader为什么最好不要有分支.md",
+    "操作系统/进程、线程、协程.md",
+    "操作系统/死锁.md",
+    "C++/数据结构与STL/⭐⭐⭐十大排序及比较.md",
+    "操作系统",
+    "未命名.md",
+    "C++/基础知识/⭐RTTI和类型转换.md",
+    "图形学",
+    "C++/数据结构与STL/物理碰撞.md",
+    "C++/数据结构与STL/哈希冲突.md",
+    "C++/数据结构与STL/待搜集.md",
+    "C++/数据结构与STL/Vector机制.md",
+    "C++/数据结构与STL/STL Allocator.md",
+    "C++/数据结构与STL/push_back 和 emplace_back.md",
+    "C++/数据结构与STL/list机制.md",
+    "C++/数据结构与STL/⭐⭐map与红黑树.md",
+    "C++/数据结构与STL/⭐⭐A Star 寻路算法.md",
+    "C++/数据结构与STL/open.url",
+    "C++/数据结构与STL",
+    "C++/C++ 网站.md",
+    "C++/基础知识/new 和 malloc.md",
+    "C++/基础知识/new、delete动态分配.md",
+    "C++/基础知识/⭐Const.md",
+    "C++/基础知识/c++默认八种构造函数.md",
+    "C++/基础知识/C++ this.md",
+    "C++/基础知识/重载、重写（覆盖）、隐藏.md",
+    "C++/基础知识",
+    "C++/内存相关",
+    "C++/C11新特性",
     "图形动画",
     "图形渲染",
-    "网络/Socket.md",
     "游戏开发/UI框架",
-    "游戏开发/Untitled.canvas",
-    "游戏开发/网络框架",
-    "游戏开发/动作系统",
-    "Lua/《{Programming in Lua》/《Programming in Lua》实战.md",
-    "网络",
-    "Lua/《{Programming in Lua》/《Programming in Lua》基础知识.md",
-    "Lua/Lua 垃圾回收.md",
-    "Lua/Lua 协程.md",
-    "index.md",
-    "Lua/LUA入门.md",
-    "Lua/Lua和C Sharp内存管理.md",
-    "Lua/Lua 元表.md",
-    "Lua/《{Programming in Lua》",
-    "Lua/LUA/《{Programming in Lua》/《Programming in Lua》实战.md",
-    "Lua/LUA/《{Programming in Lua》/《Programming in Lua》基础知识.md",
-    "Lua/LUA/《{Programming in Lua》",
-    "Lua/LUA/Lua和C Sharp内存管理.md",
-    "Lua/LUA/LUA入门.md",
-    "Lua/LUA/Lua 垃圾回收.md",
-    "Lua/LUA/Lua 协程.md",
-    "Lua/LUA/Lua 元表.md",
-    "Lua/LUA",
-    "Lua",
-    "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
-    "blog/index.md",
-    "C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
-    "主页.md"
+    "游戏开发/Untitled.canvas"
   ]
 }
