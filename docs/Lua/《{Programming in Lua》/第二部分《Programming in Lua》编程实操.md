@@ -1,3 +1,5 @@
+
+# 第一部分《Programming in Lua》编程实操
 # 九 闭包
 
 ## 1.Lua语言中函数是第一类值
@@ -247,7 +249,7 @@ n = assert(io.read("*n"),"invalid input")
 
 
 # 十七 模块和包
-一个模块就可以看作一段代码，使用**require**进行加载，然后**创建并返回一个表**
+* 一个模块就可以看作一段代码，使用**require**进行加载，然后**创建并返回一个表**
 ```lua
 local m = require"math"
 print(m.sin(3.14))
@@ -256,3 +258,111 @@ local mod = require "mod'
 mod.foo()
 
 ```
+
+## 原理
+* 函数 require 在表 package.loaded 中**检查模块是否已被加载** ,如果模块已经被加载 ，函数 **require 就返回相应的值**。因此，一旦一个模块被加载过，后续的对于同一模块的所有require 调用都将返回同一个值， 而不会再运行任何代码
+	* 要强制函数 requi 加载同一模块两次，可以先将模块从 package.loaded 中删除：`package.loaded.modname =nil`
+* 如果模块尚未加载，那么函数require 则搜**索具有指定模块名的Lua 文件**(搜索路径**由变量 package.path指定**，我们会在后续对其进行讨论)。
+* 如果函数require 找到了相应的文件，那么**就用函数 loadfile 将其进行加载**，结果是一个我们称之为**加载器(loader)的函数**(加载器就是一个被调用时加载模块的函数)。
+* 如果函数require 找不到指定模块名的Lua文件，那么它就**搜索相应名称的C标准库**。@(在这种情况下，搜索路径由变量 package.cpath指定。)如果找到了一个C标准库则使用底层函数**package.loadlib进行加载**，这个底层函数会査找名为luaopen_modname 的函数。在这种情况下，加载函数就是loadlib的执行结果，也就是一个被表示为Lua函数的C语言函数 **luaopen modname**。
+* 如果加载函数返回的是模块本身，那么还可以写成
+`local mod = require"mod".init(0,0)`
+
+### 简要总结就是：
+require只加载一次，先搜索lua文件并用loadfile加载，搜不到的话就搜C标准库即loadlib的结果。
+
+
+## 1.1模块重命名
+* 加载同一模块不同版本：通常修改.lua文件名即可，但是无法修改c标准库的二进制目标代码中luaopen_* 函数的名称。
+* require连字符技巧：函数require使用连字符之前的内容创建luaopen_* 的名称。如，一个模块的名称为mod-v3.4, 那么函数require会认为改模块的加载函数为luaopen_mod
+* 如果需要使用两个名称均为mod的模块，可以进行重命名如`mod_v1`。
+
+
+## 1.2.搜索路径
+* require使用的路径不是目录，是一组**模板**，每项都指定了将模块名(函数require的参数)转换为文件名的方式
+	* 如：`?;?.lua;c:\windows\?;/ust/local/lua/?/?lua`,使用时，调用require ”sql“ 将尝试打开如下的lua文件
+	* sql
+	* sql.lua
+	* `c:\windows\sql`
+* **函数require只处理分号和问号**，其他部分由路径自己定义
+
+
+## 1.3.搜索器
+> 提供了极大的灵活性
+
+* 现实中，函数require比此前描述过的稍微复杂，搜索lua文件和C标准库的方式只是更加通用的**搜索器**的两个实例
+* `package.seachers`列出了函数require使用的所有搜索器，每次调用时会调用每一个搜索器直到找到了**指定模块加载器**，全找不到就抛出异常
+
+### 预加载搜索器
+能够为要加载的模块定义任意加载函数
+使用名为package.preload的表来映射模块名称和加载函数
+* 找到了返回对应加载函数，否则返回nil
+* 一个静态链接到lua的C标准库可以将其luaopen_函数注册到表preload中，这样luaopen_函数只有当用户加载这个模块时才会被调用。
+
+## 2.1.编写模块的基本方法
+1.创建一个表，并将所有需要导出的函数放入其中，最后返回(注意如何简单地把new和inv声明为局部变量使他们成为**代码段的私有函数**)
+
+```lua
+local M = {}
+
+---创建一个新的复数
+local function new(r,.i)
+	return{r =r,i = i}
+end
+
+M.new = new
+
+-- constan 'i'
+M.i = new(0,1)
+
+
+function M.add(c1,c2)
+	...
+end
+
+local function inv(c)
+	...
+end
+.......
+
+
+return M
+
+
+```
+最后的返回语句，可以改为
+```lua
+local M = {}
+package.loaded[...(模块名)] = M
+```
+
+2.另一种编写模块的方式，定义局部变量：
+```lua
+local function new(r,i) return {r=r, i=i} end
+
+
+---定义常量'i'
+local i = conplex.new(0,1)
+
+
+···
+
+return{
+	new = new,
+	i = i,
+	add = add,
+	sub = sub,
+	div =div,
+	tostring = tostring,
+
+}
+
+
+
+```
+优点在于**无须在每一个标识符前增加前缀**（如M)，缺点使导出表位于模块最后面。名字写两遍，可能会有点冗余
+
+## 3.1 子模块和包
+* 如mod.sub,不过require会把点转换成目录分隔符--斜杠或者反斜杠。
+* 没有的操作系统转换为下画线，如a.b转换成a_b
+* 
