@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/游戏开发/UGUI/纹理与图集打包.md",
+                "file": "docs/游戏开发/Unity GC/BOHEM GC探究.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/游戏开发/UGUI/纹理与图集打包.md",
+                "file": "docs/游戏开发/Unity GC/BOHEM GC探究.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/游戏开发/UGUI/纹理与图集打包.md",
+                "file": "docs/游戏开发/Unity GC/BOHEM GC探究.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/游戏开发/UGUI/纹理与图集打包.md"
+                "file": "docs/游戏开发/Unity GC/BOHEM GC探究.md"
               }
             }
           }
@@ -148,8 +148,15 @@
   },
   "active": "dc5944a344d90a73",
   "lastOpenFiles": [
-    "docs/网络/TCP和UDP.md",
+    "docs/游戏开发/Unity GC/BOHEM GC探究.assets/image-20240829003928104.png",
+    "docs/游戏开发/Unity GC/BOHEM GC探究.assets/image-20240829003925476.png",
+    "docs/游戏开发/Unity GC/BOHEM GC探究.assets/image-20240829003915333.png",
+    "docs/游戏开发/Unity GC/BOHEM GC探究.assets/db9c0ff9411e82c6b376da293b5c0b5687961368.png@1256w_656h_!web-article-pic.avif",
+    "docs/游戏开发/Unity GC/BOHEM GC探究.assets",
     "docs/游戏开发/UGUI/纹理与图集打包.md",
+    "docs/游戏开发/Unity GC/BOHEM GC探究.md",
+    "docs/游戏开发/Unity GC",
+    "docs/网络/TCP和UDP.md",
     "docs/游戏开发/UGUI",
     "docs/网络/帧同步和状态同步.md",
     "docs/网络/Socket.md",
