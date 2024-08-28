@@ -1,4 +1,4 @@
-> 对于类Entity来说，this就是一个`Entity* const`的指针，这意味着this不能被随便修改。在常函数种，this是一个`const Entity* const` 的指针，意味着不能修改其他的任何值
+> 对于类 Entity 来说，this 就是一个 `Entity* const` 的指针，这意味着 this 不能被随便修改。在常函数种，this 是一个 `const Entity* const` 的指针，意味着不能修改其他的任何值
 # 1.解决类的变量命名冲突⭐⭐⭐
 ```c++
 class Box {
