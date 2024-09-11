@@ -11,12 +11,8 @@
             "id": "ebce13165e067217",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lua/Lua GC.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lua/Lua GC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lua/Lua GC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Lua/Lua GC.md"
-              }
+              "state": {}
             }
           },
           {
@@ -127,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -145,27 +137,41 @@
   },
   "active": "ebce13165e067217",
   "lastOpenFiles": [
-    "Lua/Lua 垃圾回收.md",
+    "游戏开发/游戏工具与编辑器/技能编辑器.md",
+    "游戏开发/游戏工具与编辑器/res/Pasted image 20240910150832.png",
+    "游戏开发/游戏工具与编辑器/res/Pasted image 20240910150826.png",
+    "游戏开发/游戏工具与编辑器/res/Pasted image 20240910150057.png",
+    "游戏开发/游戏工具与编辑器/res/Pasted image 20240910150004.png",
+    "游戏开发/游戏工具与编辑器/res/Pasted image 20240910145934.png",
+    "游戏开发/游戏工具与编辑器/res/Pasted image 20240910145906.png",
+    "游戏开发/游戏工具与编辑器/res/Pasted image 20240910104746.png",
+    "游戏开发/游戏工具与编辑器/res",
+    "游戏开发/游戏工具与编辑器",
+    "C++/数据结构与STL/手写STL/红黑树.md",
+    "C++/数据结构与STL/手写STL/res/Pasted image 20240911232540.png",
+    "C++/数据结构与STL/手写STL/res/Pasted image 20240911232522.png",
+    "C++/数据结构与STL/手写STL/res/Pasted image 20240911232429.png",
+    "C++/数据结构与STL/手写STL/res",
+    "C++/数据结构与STL/手写STL",
+    "游戏开发/Animation System 动画系统/【基础】Unity动画系统基础.md",
+    "游戏开发/Animation System 动画系统/RE0：从零开始的角色控制器.md",
+    "游戏开发/Animation System 动画系统",
+    "Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
+    "Lua/《{Programming in Lua》/第二部分《Programming in Lua》编程实操.md",
     "Lua/Lua GC.md",
+    "Lua/Lua 垃圾回收.md",
     "游戏开发/Unity GC/BOHEM GC探究.md",
     "游戏开发/游戏开发入门.md",
     "C++/基础知识/⭐⭐⭐虚函数与多态.md",
     "C++/内存相关/⭐编译和链接、函数调用顺序.md",
     "C++/数据结构与STL/物理碰撞.md",
     "操作系统/内存结构.md",
-    "游戏开发/Unity GC/BOHEM GC探究.assets/image-20240829003928104.png",
-    "游戏开发/Unity GC/BOHEM GC探究.assets/image-20240829003925476.png",
-    "游戏开发/Unity GC/BOHEM GC探究.assets/image-20240829003915333.png",
-    "游戏开发/Unity GC/BOHEM GC探究.assets/db9c0ff9411e82c6b376da293b5c0b5687961368.png@1256w_656h_!web-article-pic.avif",
     "游戏开发/Unity GC/BOHEM GC探究.assets",
     "游戏开发/Unity GC",
     "操作系统/死锁.md",
-    "操作系统/res/Pasted image 20240828132354.png",
     "操作系统/res",
     "操作系统/进程、线程、协程.md",
-    "Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
     "Lua/《{Programming in Lua》/第一部分《Programming in Lua》语言基础.md",
-    "Lua/《{Programming in Lua》/第二部分《Programming in Lua》编程实操.md",
     "index.md",
     "Lua/LUA入门.md",
     "Lua/Lua和C Sharp内存管理.md",
@@ -174,18 +180,8 @@
     "C++/C++ 网站.md",
     "C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
     "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
-    "C++/C11新特性/C11新特性总结.md",
-    "C++/C11新特性/C11新特性--Lambda表达式与函数指针.md",
-    "C++/C11新特性/c11新特性--decltype类型指示符.md",
-    "C++/C11新特性/C11新特性--auto.md",
-    "C++/C11新特性/C11新特性--⭐⭐内存泄漏--智能指针 Smart Pointer.md",
     "C Sharp",
     "游戏开发/UGUI",
-    "操作系统",
-    "图形学",
-    "C++/数据结构与STL",
-    "C++/基础知识",
-    "C++/内存相关",
     "游戏开发/Untitled.canvas"
   ]
 }
