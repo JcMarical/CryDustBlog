@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/游戏开发/Animation System 动画系统/RE0：从零开始的角色控制器.md",
+                "file": "docs/C++/数据结构与STL/手写STL/Vector 动态数组容器.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "23222f89712e34d6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20240912012816.png"
               }
             }
           }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/游戏开发/Animation System 动画系统/RE0：从零开始的角色控制器.md",
+                "file": "docs/C++/数据结构与STL/手写STL/Vector 动态数组容器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/游戏开发/Animation System 动画系统/RE0：从零开始的角色控制器.md",
+                "file": "docs/C++/数据结构与STL/手写STL/Vector 动态数组容器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/游戏开发/Animation System 动画系统/RE0：从零开始的角色控制器.md"
+                "file": "docs/C++/数据结构与STL/手写STL/Vector 动态数组容器.md"
               }
             }
           }
@@ -148,9 +158,13 @@
   },
   "active": "dc5944a344d90a73",
   "lastOpenFiles": [
+    "Pasted image 20240912012816.png",
+    "docs/C++/数据结构与STL/手写STL/Vector 动态数组容器.md",
+    "Pasted image 20240912015239.png",
+    "docs/C++/数据结构与STL/手写STL/红黑树.md",
+    "docs/游戏开发/Animation System 动画系统/RE0：从零开始的角色控制器.md",
     "docs/游戏开发/Animation System 动画系统/【基础】Unity动画系统基础.md",
     "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.md",
-    "docs/游戏开发/Animation System 动画系统/RE0：从零开始的角色控制器.md",
     "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets/image-20240206110650184 (1).png",
     "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets/image-20240202234350663 (1).png",
     "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets/image-20240202234350663.png",
@@ -173,8 +187,6 @@
     "docs/Lua/《{Programming in Lua》/第一部分《Programming in Lua》语言基础.md",
     "docs/游戏开发/Unity GC/BOHEM GC探究.assets/image-20240829003928104.png",
     "docs/游戏开发/Unity GC/BOHEM GC探究.assets/image-20240829003925476.png",
-    "docs/游戏开发/Unity GC/BOHEM GC探究.assets/image-20240829003915333.png",
-    "docs/游戏开发/Unity GC/BOHEM GC探究.assets/db9c0ff9411e82c6b376da293b5c0b5687961368.png@1256w_656h_!web-article-pic.avif",
     "docs/游戏开发/Unity GC/BOHEM GC探究.assets",
     "docs/游戏开发/UGUI/纹理与图集打包.md",
     "docs/游戏开发/Unity GC",
@@ -186,8 +198,6 @@
     "docs/游戏开发/游戏开发入门.md",
     "docs/index.md",
     "README.md",
-    "images",
-    "docs/C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
-    "docs/主页.md"
+    "images"
   ]
 }
