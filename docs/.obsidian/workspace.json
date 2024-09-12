@@ -11,8 +11,12 @@
             "id": "ebce13165e067217",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C Sharp/奇技淫巧之局部类型partial.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C Sharp/奇技淫巧之局部类型partial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C Sharp/奇技淫巧之局部类型partial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C Sharp/奇技淫巧之局部类型partial.md"
+              }
             }
           },
           {
@@ -137,6 +145,10 @@
   },
   "active": "ebce13165e067217",
   "lastOpenFiles": [
+    "C Sharp/装箱拆箱Boxing消耗.md",
+    "C Sharp/奇技淫巧之局部类型partial.md",
+    "网络/RPC.md",
+    "C++/数据结构与STL/手写STL/Vector 动态数组容器.md",
     "游戏开发/游戏工具与编辑器/技能编辑器.md",
     "游戏开发/游戏工具与编辑器/res/Pasted image 20240910150832.png",
     "游戏开发/游戏工具与编辑器/res/Pasted image 20240910150826.png",
@@ -177,9 +189,6 @@
     "Lua/Lua和C Sharp内存管理.md",
     "Lua/Lua 元表.md",
     "Lua/Lua 协程.md",
-    "C++/C++ 网站.md",
-    "C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
-    "C++/Effective C++读书笔记/《Effective C++》读书笔记 1-让自己熟悉C++.md",
     "C Sharp",
     "游戏开发/UGUI",
     "游戏开发/Untitled.canvas"
