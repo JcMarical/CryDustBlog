@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a675ffc31dc8e273",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS与底层/汇编/汇编语言扫荡.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,13 +156,14 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ebce13165e067217",
+  "active": "a675ffc31dc8e273",
   "lastOpenFiles": [
+    "未命名.md",
+    "OS与底层/汇编/汇编语言扫荡.md",
     "OS与底层/汇编/res/Pasted image 20240912221249.png",
     "OS与底层/汇编/res/Pasted image 20240912212719.png",
     "OS与底层/汇编/res",
     "blog/index.md",
-    "OS与底层/汇编/汇编语言扫荡.md",
     "OS与底层/汇编",
     "游戏开发/Animation System 动画系统/RE0：从零开始的角色控制器.md",
     "C Sharp/奇技淫巧之局部类型partial.md",
@@ -168,7 +182,6 @@
     "游戏开发/游戏工具与编辑器",
     "C++/数据结构与STL/手写STL/红黑树.md",
     "C++/数据结构与STL/手写STL/res/Pasted image 20240911232540.png",
-    "C++/数据结构与STL/手写STL/res/Pasted image 20240911232522.png",
     "C++/数据结构与STL/手写STL/res",
     "C++/数据结构与STL/手写STL",
     "游戏开发/Animation System 动画系统/【基础】Unity动画系统基础.md",
