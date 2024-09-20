@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/C++/数据结构与STL/手写STL/Vector 动态数组容器.md",
+                "file": "docs/游戏开发/动画系统/RE3：使用Cinemachine 进行相机控制.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "470c68d563a971fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/游戏开发/动画系统/RE4：跳跃.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23b9ce6ba50fdd5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,13 +47,12 @@
             "id": "23222f89712e34d6",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20240912012816.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/C++/数据结构与STL/手写STL/Vector 动态数组容器.md",
+                "file": "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/C++/数据结构与STL/手写STL/Vector 动态数组容器.md",
+                "file": "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/C++/数据结构与STL/手写STL/Vector 动态数组容器.md"
+                "file": "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md"
               }
             }
           }
@@ -156,14 +179,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dc5944a344d90a73",
+  "active": "23b9ce6ba50fdd5b",
   "lastOpenFiles": [
-    "Pasted image 20240912012816.png",
+    "docs/游戏开发/动画系统/RE6：推拉箱子.md",
+    "docs/游戏开发/动画系统/RE5：翻墙头.md",
+    "docs/游戏开发/动画系统/RE4：跳跃.md",
+    "docs/游戏开发/UGUI/纹理与图集打包.md",
+    "docs/游戏开发/动画系统/RE3：使用Cinemachine 进行相机控制.md",
+    "docs/游戏开发/动画系统/RE2：使用Character和Root Motion控制角色移动.md",
+    "docs/游戏开发/动画系统/RE1：2D Blend Tree 双变量混合树.md",
+    "Pasted image 20240916035953.png",
+    "docs/游戏开发/动画系统/RE0：从零开始的角色控制器.md",
+    "Pasted image 20240915124938.png",
     "docs/C++/数据结构与STL/手写STL/Vector 动态数组容器.md",
+    "Pasted image 20240912012816.png",
     "Pasted image 20240912015239.png",
     "docs/C++/数据结构与STL/手写STL/红黑树.md",
-    "docs/游戏开发/Animation System 动画系统/RE0：从零开始的角色控制器.md",
-    "docs/游戏开发/Animation System 动画系统/【基础】Unity动画系统基础.md",
+    "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md",
     "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.md",
     "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets/image-20240206110650184 (1).png",
     "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets/image-20240202234350663 (1).png",
@@ -173,7 +205,7 @@
     "image-20240206110650184.png",
     "image-20240202234350663.png",
     "docs/C++/基础知识/⭐string类书写.md",
-    "docs/游戏开发/Animation System 动画系统",
+    "docs/游戏开发/动画系统",
     "docs/C++/基础知识/类、结构、联合、枚举 class struct union enum.md",
     "docs/C++/基础知识/⭐Const.md",
     "docs/C++/基础知识/⭐指针和引用的区别.md",
@@ -185,19 +217,11 @@
     "docs/Lua/《{Programming in Lua》/第二部分《Programming in Lua》编程实操.md",
     "docs/Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
     "docs/Lua/《{Programming in Lua》/第一部分《Programming in Lua》语言基础.md",
-    "docs/游戏开发/Unity GC/BOHEM GC探究.assets/image-20240829003928104.png",
-    "docs/游戏开发/Unity GC/BOHEM GC探究.assets/image-20240829003925476.png",
     "docs/游戏开发/Unity GC/BOHEM GC探究.assets",
-    "docs/游戏开发/UGUI/纹理与图集打包.md",
     "docs/游戏开发/Unity GC",
     "docs/网络/TCP和UDP.md",
     "docs/游戏开发/UGUI",
     "docs/网络/帧同步和状态同步.md",
-    "docs/网络/Socket.md",
-    "docs/blog/index.md",
-    "docs/游戏开发/游戏开发入门.md",
-    "docs/index.md",
-    "README.md",
     "images"
   ]
 }
