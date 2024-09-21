@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md",
+                "file": "docs/算法与数据结构/算法总览.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "841680f83c5c8291",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/算法与数据结构/动态规划/解题套路框架.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md",
+                "file": "docs/算法与数据结构/动态规划/解题套路框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md",
+                "file": "docs/算法与数据结构/动态规划/解题套路框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md"
+                "file": "docs/算法与数据结构/动态规划/解题套路框架.md"
               }
             }
           }
@@ -179,8 +191,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "23b9ce6ba50fdd5b",
+  "active": "841680f83c5c8291",
   "lastOpenFiles": [
+    "docs/算法与数据结构/图算法/未命名.md",
+    "docs/算法与数据结构/动态规划/解题套路框架.md",
+    "docs/算法与数据结构/算法总览.md",
+    "docs/算法与数据结构/动态规划",
+    "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md",
+    "docs/算法与数据结构/图算法",
+    "docs/算法与数据结构",
     "docs/游戏开发/动画系统/RE6：推拉箱子.md",
     "docs/游戏开发/动画系统/RE5：翻墙头.md",
     "docs/游戏开发/动画系统/RE4：跳跃.md",
@@ -195,7 +214,6 @@
     "Pasted image 20240912012816.png",
     "Pasted image 20240912015239.png",
     "docs/C++/数据结构与STL/手写STL/红黑树.md",
-    "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md",
     "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.md",
     "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets/image-20240206110650184 (1).png",
     "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets/image-20240202234350663 (1).png",
@@ -216,12 +234,9 @@
     "docs/游戏开发/UI框架/限时概览设计方案.md",
     "docs/Lua/《{Programming in Lua》/第二部分《Programming in Lua》编程实操.md",
     "docs/Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
-    "docs/Lua/《{Programming in Lua》/第一部分《Programming in Lua》语言基础.md",
     "docs/游戏开发/Unity GC/BOHEM GC探究.assets",
     "docs/游戏开发/Unity GC",
-    "docs/网络/TCP和UDP.md",
     "docs/游戏开发/UGUI",
-    "docs/网络/帧同步和状态同步.md",
     "images"
   ]
 }
