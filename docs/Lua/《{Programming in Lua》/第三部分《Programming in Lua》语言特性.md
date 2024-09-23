@@ -80,14 +80,222 @@ setmetable(t,t1)
 print(getmetatable(t) == t1) -->true
 ```
 
-一个lua的curWeekCfg表中存储了多行本周精选模块数据，nextWeekCfg表中存储了多行下周预告模块数据。
-每个模块具有
+# 二十一 面向对象编程
+## 1.对象
+Lua一张**表即为对象**，拥有一个与其值无关的标识**self**。
 
-1.到达刷新时间时，若当前的下周预告有内容，则之前展示在下周预告的内容则会刷新展示在本周精选模块
-2.到达刷新时间时，若已配置下周的下周预告，则会刷新在下周预告的模块中
+## 2.方法(self,冒号操作符)
++ 全局名称（糟糕，只能针对特定对象使用）
+```lua
+function Account.withdraw(v)
+	Account.balance = Account.balance - v
+end
+```
 
-3.若到达刷新时间点，玩家仍停留在活动界面，则玩家下一次进入界面后再刷新成新的内容
 
-4.到了模块刷新就变，如果当前就是最后的配置了且没有新的模块刷新时间，就一直维持当前的模块
++ 指定对象
+```lua
+function Account.withdraw(self,v)
+	self.balance = self.balance - v
+end
 
-请帮我写出代码
+
+--使用
+a1.withdraw(a1,100.00)
+```
+
+使用参数self是所有面向对象语言的核心点，大多数面向对象语言都隐藏这个机制。Lua语言同样可以使用冒号操作符隐藏
+```
+function Account:withdraw(v)
+	self.balance = self.balance - v
+end
+```
+* 
+## 3. 类Class
+Lua语言中没有类的概念，截至目前，我们的对象具有了标识、状态和对状态进行的操作。但还缺乏类体系，继承和私有性
+
+
+
++ 利用元表来实现原型
+```lua
+setmetatable(A,{__index==B})
+```
+在此之后，A就会在B中查找所有它没有的操作。可以把B看作对象A的类。
+
++ 或者就直接使用__index元方法实现原型继承.
+a创建的时候自动将**mt作为其元表**，deposit在a找不到则会自动在__index中寻找
+```lua
+local mt = {__index = Account}
+
+function Account.new(o)
+	o = o or{}
+	setmetable(o,mt)
+	return o
+end
+
+
+--- 创建新账户调用方法
+a = Account.new(balance = 0)
+a:deposit(100.00)
+
+```
+
+
+* 改进
+	* 不创建扮演元表角色的表而是把表直接Account用作元表
+	* 第二种改进，对new方法也使用冒号语法。
+```c++
+function Account:new(o)
+	o = o or {}
+	self.__index = self
+	setmetatable(o,self)
+	return o
+end
+```
+
+
+### 继承
+由于类也是对象，因此它们也可以从其他类获得方法，这种行为使得继承可以很容易在Lua语言中实现.
+
+* Lua语言中有一个有趣的特性：
+	* 无需为了**指定新行为**而创建新类。如果一个函数withdraw里面实现了原型的getlimit方法。想要修改则直接在类里面重新设置getlimit方法就好了
+
+
+### 多重继承
+`__index`只是实现继承的一种方法，是最均衡的做法。
+
+当然，还有其他方法。
+
+
+#### createClass
+定义一个独立的函数来创建子类，设置新类元表中的元方法__index，由元方法来实现多重继承。
+虽然是多重继承，每个实例仍属于单个类，并在其中查找所有的方法。
+
+```c++
+local function search(k,plist)
+	for i = 1, #plist do
+		local v = plist[i][k]
+		if v then return v end
+	end
+end
+
+
+function createClass(...)
+	local c = {}    ---新类
+	local parents = {...}  --- 父类列表
+
+	-- 在父类列表中查找类缺失的方法
+	setmetatable(c,{__index = function (t , k)
+		return search(k,parents)
+	end})
+
+	-- 将'c'作为其实例的元表
+	c.__index = c
+
+	-- 为新类定义一个新的构造函数
+	function c:new(o)
+		o = o or {}
+		setmetatable(0,c)
+		return o
+	end
+
+	return c
+end
+
+
+---使用
+
+NamedAccount = createClass(Account,Named)
+
+```
+首先，lua语言在子类找不到某个方法，那么就会查找该子类的元表c的__index字段，从__index查找就会发现这是一个函数，那么Lua语言就调用了这个函数，即search。
+该函数遍历每一个父类，直到找到对应的方法。
+缺点：
+* 搜索具有复杂性，所以性能不太好
+
+* 也可以将继承方法移动到子类中，可以达到访问局部方法的速度，但是这样就不好修改方法定义了。
+
+## 4. 私有性(信息隐藏)
+Lua并没有提供私有性机制，
+* 一方面这是使用普通结构（表）来表示对象所带来的后果。
+* 一方面为了避免冗余和人为限制所采取的方法，程序员不想访问就**不要去访问**
+* 一种常见的作法就是把所有私有名称的**最后都加上一个下画线**
+
+尽管如此，Lua语言的另外一项设计目标就是灵活性，提供能够模拟许多不同机制的**元机制**。
+* 基本思想：两个表来表示一个对象，一个存状态，一个存操作（接口），通过第二个表来访问对象本身。第一个表则为**私有表**
+* 这是通过**设置函数内部局部变量和方法+返回方法名称**实现私有
+* 而不放入接口中的函数就是**私有方法**
+```lua
+function newAccount(initialBalance)
+	local self = {balance = initialBalance}
+
+	local withdraw = function(V)
+		self.balance = self.balance - v
+	end
+
+	local deposit = function(v)
+		self.balance = self.balance + v
+	end
+
+	local getBalance = function return self.balance end
+
+	return{
+		withdraw = withdraw,
+		deposit = deposit,
+		getBalance = getBalance
+	}
+end
+```
+
+
+
+## 5.单方法对象
+使用单方法对象可以不用创建接口表，只用将这个单独的方法以对象的表现形式返回即可
+* 举例：一个在内部保存了状态的迭代器就是一个单方法对象
+* 另一种情况：一个根据不同的参数完成不同任务的分发方法(这样其实很**高效**，)
+	* 每个对象使用一个**闭包**，要比使用一个表的**开销更低**
+	* 虽然不能继承，但可以拥有完全的私有性：访问单方法对象中某个成员只能通过该对象的唯一方法。
+```lua
+function newObject(value)
+	return function(action,v)
+		if action == "get" then return value
+		elseif action == "set" then value = v
+		else error("invalid action")
+		end
+	end
+end
+
+---use
+d = newObject(0)
+print(d("get"))
+d("set",10)
+```
+
+## 6.对偶表示
+实现私有性的另一种方式：表当作键，同时又把对象当作表的键
+```lua
+table[key] = value
+
+key = {}
+
+key[table] = value
+```
+
+举例：银行账户
+好处在于即便能访问withdraw，除非能同时访问balance，否则也不能访问余额
+```lua
+
+local balance =  {}
+Account = {}
+
+function Account.withdraw(self,v)
+	balance[self] = balance[self] - v
+end
+
+```
+
+### 缺陷
+一旦这样做，那么这个账户对于垃圾收集器而言**永远不会变为垃圾**，直到**显式删除**
+
+##  优点
+无须修改即可实现**继承**
