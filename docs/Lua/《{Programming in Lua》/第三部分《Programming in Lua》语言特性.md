@@ -296,6 +296,50 @@ end
 
 ### 缺陷
 一旦这样做，那么这个账户对于垃圾收集器而言**永远不会变为垃圾**，直到**显式删除**
-
 ##  优点
 无须修改即可实现**继承**
+
+# 二十二 环境
+Lua语言不使用全局变量，但又不遗余力地进行模拟。
+
+第一种近似模拟是把全局变量保存在_G表中。因此`_G._G = _G`
+## 1.具有动态名称的全局变量
+一般，赋值操作对于访问和设置全局变量已经够了。然而有时也需要某些形式的元编程。
+```c++
+	value = _G[varname]
+```
+* 如果直接使用`_G["io.read"]`，显然不能从表io中得到字段read的。但我没可以编写一个函数getfield让getfield("io.read")返回想要的结果。这个函数主要是一个循环，从_G开始逐个字段地进行求值
+```c++
+function getfield(f)
+	loval v = _G
+	for w in string.gmatch(f,"[%a_][%w_]") do
+		v = v[w]
+	end
+	return v
+end
+
+```
+
+
+## 2.全局变量的声明
+lua本身变量声明即可访问，但我们要避免错误的访问不存在的全局变量该怎么做呢？
+```lua
+setmetable(_G,{
+	__newindex = function(_,n)
+		error("attemp to write undeclared"..n,2)
+	end,
+	__index = function(_,n)
+		error("attemt to read undeclared variable"..n,2)
+	end,
+})
+```
+
+那么如何声明呢？
+方法一：rawset，绕过元方法
+```c++
+function declare(name,initval)
+	rawset(_G, name, inirval of false)
+end
+```
+
+方法二：使用元方法允许全局变量=nil的赋值
