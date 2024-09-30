@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/算法与数据结构/动态规划/解题套路框架.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/算法与数据结构/动态规划/解题套路框架.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/算法与数据结构/动态规划/解题套路框架.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/算法与数据结构/动态规划/解题套路框架.md"
+                "file": "docs/index.md"
               }
             }
           }
@@ -179,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,47 +194,48 @@
   },
   "active": "841680f83c5c8291",
   "lastOpenFiles": [
-    "docs/算法与数据结构/图算法/未命名.md",
+    "README.md",
+    "docs/图形学/庄懂技术美术课程/第一节.md",
+    "Pasted image 20240926021223.png",
+    "Pasted image 20240926015909.png",
+    "Pasted image 20240926015808.png",
+    "Pasted image 20240926014526.png",
+    "Pasted image 20240926013932.png",
+    "Pasted image 20240926013554.png",
     "docs/算法与数据结构/动态规划/解题套路框架.md",
-    "docs/算法与数据结构/算法总览.md",
-    "docs/算法与数据结构/动态规划",
-    "docs/游戏开发/动画系统/【基础】Unity动画系统基础.md",
-    "docs/算法与数据结构/图算法",
-    "docs/算法与数据结构",
-    "docs/游戏开发/动画系统/RE6：推拉箱子.md",
-    "docs/游戏开发/动画系统/RE5：翻墙头.md",
-    "docs/游戏开发/动画系统/RE4：跳跃.md",
-    "docs/游戏开发/UGUI/纹理与图集打包.md",
-    "docs/游戏开发/动画系统/RE3：使用Cinemachine 进行相机控制.md",
-    "docs/游戏开发/动画系统/RE2：使用Character和Root Motion控制角色移动.md",
-    "docs/游戏开发/动画系统/RE1：2D Blend Tree 双变量混合树.md",
-    "Pasted image 20240916035953.png",
-    "docs/游戏开发/动画系统/RE0：从零开始的角色控制器.md",
-    "Pasted image 20240915124938.png",
-    "docs/C++/数据结构与STL/手写STL/Vector 动态数组容器.md",
-    "Pasted image 20240912012816.png",
-    "Pasted image 20240912015239.png",
-    "docs/C++/数据结构与STL/手写STL/红黑树.md",
-    "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.md",
-    "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets/image-20240206110650184 (1).png",
-    "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets/image-20240202234350663 (1).png",
-    "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets/image-20240202234350663.png",
-    "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets/image-20240206110650184.png",
-    "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets",
-    "image-20240206110650184.png",
-    "image-20240202234350663.png",
+    "docs/未命名.md",
+    "Pasted image 20240926005754.png",
+    "Pasted image 20240926003338.png",
+    "docs/C++/数据结构与STL/物理碰撞.md",
+    "docs/图形学/庄懂技术美术课程",
+    "docs/C++/内存相关/内存管理（内存分配、内存对齐）.md",
+    "docs/C++/内存相关/内存泄漏的定位.md",
+    "docs/C++/内存相关/⭐编译和链接、函数调用顺序.md",
+    "docs/C++/内存相关/⭐内存大小、内存对齐与sizeof().md",
+    "docs/C++/代码书写/对象基础函数及变量书写注意事项.md",
     "docs/C++/基础知识/⭐string类书写.md",
-    "docs/游戏开发/动画系统",
     "docs/C++/基础知识/类、结构、联合、枚举 class struct union enum.md",
     "docs/C++/基础知识/⭐Const.md",
     "docs/C++/基础知识/⭐指针和引用的区别.md",
-    "docs/C++/基础知识/⭐牛客与笔试--奇葩题目大全.md",
     "docs/C++/基础知识/⭐传值，深拷贝和浅拷贝.md",
-    "docs/C++/基础知识/⭐⭐⭐虚函数与多态.md",
-    "docs/游戏开发/Unity GC/BOHEM GC探究.md",
-    "docs/游戏开发/UI框架/限时概览设计方案.md",
-    "docs/Lua/《{Programming in Lua》/第二部分《Programming in Lua》编程实操.md",
-    "docs/Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
+    "docs/C++/基础知识/⭐牛客与笔试--奇葩题目大全.md",
+    "docs/C++/基础知识/⭐RTTI和类型转换.md",
+    "docs/C++/基础知识/内联函数与宏.md",
+    "docs/C++/基础知识/运行调用顺序.md",
+    "docs/C++/基础知识/重载、重写（覆盖）、隐藏.md",
+    "docs/C++/基础知识/C++ this.md",
+    "docs/C++/基础知识/c++默认八种构造函数.md",
+    "docs/C++/基础知识/new 和 malloc.md",
+    "docs/C++/基础知识/new、delete动态分配.md",
+    "docs/C++/C11新特性/C11新特性总结.md",
+    "docs/C++/C11新特性/C11新特性--Lambda表达式与函数指针.md",
+    "docs/算法与数据结构/动态规划",
+    "docs/算法与数据结构/图算法",
+    "docs/算法与数据结构",
+    "Pasted image 20240916035953.png",
+    "Pasted image 20240915124938.png",
+    "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets",
+    "docs/游戏开发/动画系统",
     "docs/游戏开发/Unity GC/BOHEM GC探究.assets",
     "docs/游戏开发/Unity GC",
     "docs/游戏开发/UGUI",
