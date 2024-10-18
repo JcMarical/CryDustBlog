@@ -352,4 +352,41 @@ end
 loacl z = 10
 x = y + z
 ```
-而lua语言编译器就会将代码段中的所有自由名称x转换为_Envo
+而lua语言编译器就会将代码段中的所有自由名称x转换为_ENV.x。因此之前代码段
+```
+local z = 10
+_ENV.x = _ENV.y + z
+```
+
+> 那么_ENV变量又究竟是什么呢？
+
+Lua语言把所有代码段都当作匿名函数。所以，Lua语言编译器实际上将原来的代码段编译为如下形式
+```lua
+local _ENV = some value(某些值)
+return function(...)
+	local z  = 10
+	_ENV.x = _ENV.y + z
+end
+```
+Lua语言是在一个名为_ENV的预定义上值存在的情况下编辑所有的代码段的。
++ `_ENV`的初始值可以是任意的表。任何一个这样的表都称为一个环境
++ 为了维持全局变量存在的幻觉，lua语言在内部维护了一个表来用全局环境。
+```c#
+local _ENV = the global enviroment(全局环境)
+return function(...)
+	local z  = 10
+	_ENV.x = _ENV.y + z
+end
+```
+
+
+### 阶段总结
+lua处理全局变量的方式：
++ 编译器在编译所有代码前，在外层创建局部变量_ENV;
++ 编译器将所有自由名称var变换为_ENV.var;
++ 函数load(或者loadfile)使用全局环境初始化代码段的第一个上值，即lua语言内部维护的一个普通的表
+
+
+## 4.使用_ENV
+由于_ENV只是个普通变量，因此可以对其赋值或者像访问其他变量一样访问它。
+

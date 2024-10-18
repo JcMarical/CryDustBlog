@@ -25,14 +25,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/编辑器拓展/监控器/角色监控器基类ActorMonitorWindow.md",
+                "file": "游戏开发/编辑器拓展/IMGUI-GUI(Layout).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8adf1a3e28677a1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "游戏开发/编辑器拓展/IMGUI-EditorGUI(Layout).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2fa3d25f53c5d37d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "游戏开发/编辑器拓展/IMGUI-EditorGUI(Layout).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19a99398c1b05196",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "图形学/Shader为什么最好不要有分支.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/编辑器拓展/监控器/角色监控器基类ActorMonitorWindow.md",
+                "file": "图形学/Shader为什么最好不要有分支.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/编辑器拓展/监控器/角色监控器基类ActorMonitorWindow.md",
+                "file": "图形学/Shader为什么最好不要有分支.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/编辑器拓展/监控器/角色监控器基类ActorMonitorWindow.md"
+                "file": "图形学/Shader为什么最好不要有分支.md"
               }
             }
           },
@@ -156,54 +192,54 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "a675ffc31dc8e273",
+  "active": "19a99398c1b05196",
   "lastOpenFiles": [
+    "图形学/庄懂技术美术课程/第一节.md",
+    "图形学/Shader为什么最好不要有分支.md",
+    "游戏开发/寻路/寻路算法基础研究.md",
+    "游戏开发/寻路/res/Pasted image 20241018131012.png",
+    "游戏开发/寻路/res/Pasted image 20241018103140.png",
+    "游戏开发/寻路/res/Pasted image 20241018103048.png",
+    "游戏开发/寻路/res/Pasted image 20241018102906.png",
+    "游戏开发/寻路/res",
+    "游戏开发/编辑器拓展/子弹监控/子弹监控树BulletAnalyzeTreeView.md",
+    "游戏开发/寻路",
+    "游戏开发/编辑器拓展/子弹监控/编辑器程序集访问游戏核心程序集.md",
+    "游戏开发/角色框架/角色系统/Actor基类.md",
+    "游戏开发/编辑器拓展/IMGUI-EditorGUI(Layout) -TreeView树形结构实现--子弹监控工具实现.md",
+    "游戏开发/角色框架/未命名.md",
+    "游戏开发/角色框架/角色系统",
+    "游戏开发/未命名.md",
+    "游戏开发/角色框架",
+    "游戏开发/编辑器拓展/IMGUI-GUI(Layout).md",
+    "游戏开发/编辑器拓展/UIElements.md",
+    "Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
+    "Lua/Lua 协程.md",
+    "Lua/Lua 元表.md",
+    "C Sharp/奇技淫巧之局部类型partial.md",
+    "C Sharp/装箱拆箱Boxing消耗.md",
+    "C Sharp/Unity 协程.md",
+    "C Sharp/C Sharp基础--特性Attribute和反射Reflection.md",
+    "游戏开发/编辑器拓展/Unity的EditorWindow类.md",
+    "游戏开发/编辑器拓展/子弹监控",
+    "游戏开发/编辑器拓展/IMGUI-EditorGUI(Layout).md",
+    "C++/基础知识/⭐⭐⭐虚函数与多态.md",
+    "游戏开发/编辑器拓展/res/Pasted image 20241008151052.png",
+    "游戏开发/编辑器拓展/res",
+    "游戏开发/编辑器拓展/游戏工具与编辑器/技能编辑器.md",
+    "游戏开发/编辑器拓展/搜索器/局内搜索器.md",
+    "游戏开发/编辑器拓展/监控器/角色监控器基类ActorMonitorWindow.md",
+    "图形学/庄懂技术美术课程",
     "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930152223.png",
     "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930151101.png",
     "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930151032.png",
     "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930114545.png",
     "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930114420.png",
-    "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930114242.png",
-    "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930114215.png",
-    "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930113414.png",
     "游戏开发/编辑器拓展/监控器/res",
     "游戏开发/性能优化/IL2CPP 性能优化.md",
     "游戏开发/行为树Node Canvas/Node Canvas使用.md",
     "游戏开发/性能优化",
     "C Sharp/未命名",
-    "游戏开发/游戏工具与编辑器/技能编辑器.md",
-    "游戏开发/Unity GC/BOHEM GC探究.md",
-    "游戏开发/Unity GC/res/Pasted image 20240929204031.png",
-    "游戏开发/Unity GC/res/Pasted image 20240929203950.png",
-    "游戏开发/Unity GC/res",
-    "游戏开发/编辑器拓展/UIElements.md",
-    "游戏开发/编辑器拓展/Unity的EditorWindow类.md",
-    "游戏开发/编辑器拓展/监控器/角色监控器基类ActorMonitorWindow.md",
-    "游戏开发/编辑器拓展/监控器/监控器抽象类.md",
-    "游戏开发/编辑器拓展/搜索器/局内搜索器.md",
-    "游戏开发/编辑器拓展/监控器/监控器内容HelperMonitor.md",
-    "游戏开发/编辑器拓展/监控器",
-    "C Sharp/C Sharp基础--特性Attribute和反射Reflection.md",
-    "Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
-    "Lua/《{Programming in Lua》/第二部分《Programming in Lua》编程实操.md",
-    "计算机系统/汇编/汇编语言扫荡.md",
-    "Lua/Lua 元表.md",
-    "Lua/Lua 协程.md",
-    "Lua/Lua 垃圾回收.md",
-    "index.md",
-    "Lua/LUA入门.md",
-    "未命名 1.md",
-    "C Sharp/奇技淫巧之局部类型partial.md",
-    "C Sharp/装箱拆箱Boxing消耗.md",
-    "计算机系统/死锁.md",
-    "计算机系统/进程、线程、协程.md",
-    "游戏开发/编辑器拓展/搜索器",
-    "游戏开发/编辑器拓展",
-    "算法与数据结构/算法总览.md",
-    "算法与数据结构/动态规划",
-    "游戏开发/动画系统",
-    "游戏开发/行为树Node Canvas/res/Pasted image 20240921110119.png",
-    "算法与数据结构/图算法",
     "游戏开发/Untitled.canvas"
   ]
 }
