@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
+                "file": "docs/游戏开发/编辑器拓展/UIElement/UIElement介绍.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
+                "file": "docs/游戏开发/编辑器拓展/UIElement/UIElement介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
+                "file": "docs/游戏开发/编辑器拓展/UIElement/UIElement介绍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md"
+                "file": "docs/游戏开发/编辑器拓展/UIElement/UIElement介绍.md"
               }
             }
           }
@@ -193,12 +193,19 @@
   },
   "active": "841680f83c5c8291",
   "lastOpenFiles": [
-    "docs/Lua/Lua 协程.md",
+    "docs/游戏开发/编辑器拓展/UIElement/UXML.md",
+    "docs/游戏开发/编辑器拓展/UIElement/UIElement介绍.md",
+    "docs/图形学/Shader记录/UnityShader/模版缓冲.md",
+    "docs/游戏开发/编辑器拓展/UIElement",
+    "docs/图形学/Shader记录/UnityShader",
+    "docs/index.md",
+    "docs/图形学/Shader记录",
+    "docs/关于我/游戏项目.md",
+    "docs/关于我/学习计划.md",
     "docs/Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
+    "docs/Lua/Lua 协程.md",
     "docs/Lua/《{Programming in Lua》/第二部分《Programming in Lua》编程实操.md",
     "docs/Lua/《{Programming in Lua》/第一部分《Programming in Lua》语言基础.md",
-    "docs/关于我/学习计划.md",
-    "docs/关于我/游戏项目.md",
     "docs/网络/Unity网络编程/第一部分 网络聊天室.md",
     "docs/关于我",
     "docs/图形学/庄懂TA/第五、六节 像素Shader光照模型.md",
@@ -229,15 +236,8 @@
     "docs/游戏开发/UI框架/限时概览设计方案.md",
     "docs/游戏开发/UI框架/游戏UI框架设计概览.md",
     "docs/游戏开发/行为树Node Canvas/Node Canvas使用.md",
-    "docs/游戏开发/行为树Node Canvas/Node Canvas新增节点.md",
-    "docs/游戏开发/动画系统/RE5：翻墙头.md",
-    "docs/游戏开发/动画系统/RE2：使用Character和Root Motion控制角色移动.md",
-    "docs/游戏开发/动画系统/RE3：使用Cinemachine 进行相机控制.md",
     "docs/图形学/庄懂TA",
     "docs/算法与数据结构/动态规划",
-    "docs/算法与数据结构/图算法",
-    "docs/算法与数据结构",
-    "docs/游戏开发/Animation System 动画系统/Unity动画系统基础.assets",
-    "docs/游戏开发/动画系统"
+    "docs/算法与数据结构/图算法"
   ]
 }
