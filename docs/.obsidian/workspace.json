@@ -16,7 +16,9 @@
                 "file": "计算机系统/汇编/汇编语言扫荡.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "汇编语言扫荡"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "游戏开发/编辑器拓展/IMGUI-GUI(Layout).md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "IMGUI-GUI(Layout)"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "游戏开发/编辑器拓展/IMGUI-EditorGUI(Layout).md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "IMGUI-EditorGUI(Layout)"
             }
           },
           {
@@ -52,7 +58,9 @@
                 "file": "游戏开发/编辑器拓展/IMGUI-EditorGUI(Layout).md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "IMGUI-EditorGUI(Layout)"
             }
           },
           {
@@ -61,14 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/Shader为什么最好不要有分支.md",
+                "file": "图形学/渲染/Shader基础/Shader为什么最好不要有分支.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Shader为什么最好不要有分支"
+            }
+          },
+          {
+            "id": "a266017f7a0ce736",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "游戏开发/编辑器拓展/编辑器的坑.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "编辑器的坑"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -88,7 +112,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -103,7 +129,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -111,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -134,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图形学/Shader为什么最好不要有分支.md",
+                "file": "游戏开发/编辑器拓展/编辑器的坑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +172,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "编辑器的坑 的反向链接列表"
             }
           },
           {
@@ -151,10 +183,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "图形学/Shader为什么最好不要有分支.md",
+                "file": "游戏开发/编辑器拓展/编辑器的坑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "编辑器的坑 的出链列表"
             }
           },
           {
@@ -163,8 +197,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "图形学/Shader为什么最好不要有分支.md"
-              }
+                "file": "游戏开发/编辑器拓展/编辑器的坑.md"
+              },
+              "icon": "lucide-list",
+              "title": "编辑器的坑 的大纲"
             }
           },
           {
@@ -172,7 +208,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -192,54 +230,54 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "19a99398c1b05196",
+  "active": "a266017f7a0ce736",
   "lastOpenFiles": [
-    "图形学/庄懂技术美术课程/第一节.md",
-    "图形学/Shader为什么最好不要有分支.md",
-    "游戏开发/寻路/寻路算法基础研究.md",
+    "网络/Unity网络编程/第一部分 网络聊天室.md",
+    "网络/Unity网络编程",
+    "游戏开发/编辑器拓展/UIElement/UXML.md",
+    "游戏开发/编辑器拓展/UIElement/UIElement介绍.md",
+    "游戏开发/编辑器拓展/UIElement",
+    "游戏开发/Unity基础/Unity 协程.md",
+    "游戏开发/Unity基础",
+    "游戏开发/AA包Adressable/Addressable介绍.md",
+    "游戏开发/AA包Adressable",
+    "图形学/庄懂TA/第四节 SSS次表面散射.md",
+    "图形学/庄懂TA/第六节.md",
+    "图形学/庄懂TA/第五、六节 像素Shader光照模型.md",
+    "图形学/庄懂TA/第三节 Shader代码.md",
+    "图形学/庄懂TA/第一、二节 Lambert光照.md",
+    "图形学/庄懂TA",
+    "图形学/Shader记录/UnityShader/模版缓冲.md",
+    "图形学/Shader记录/UnityShader",
+    "图形学/Shader记录",
+    "关于我/游戏项目.md",
+    "关于我/学习计划.md",
+    "关于我",
+    "Lua/Lua 类模拟.md",
+    "游戏开发/编辑器拓展/编辑器的坑.md",
+    "游戏开发/编辑器拓展/子弹监控/难顶的TREE VIEW.md",
+    "游戏开发/编辑器拓展/子弹监控/编辑器程序集访问游戏核心程序集.md",
+    "图形学/渲染/仿原神渲染记录(URP HLSL)/代码.md",
+    "图形学/渲染/仿原神渲染记录(URP HLSL)/代码/未命名.md",
+    "图形学/渲染/仿原神渲染记录(URP HLSL)/原神URP--后处理.md",
+    "图形学/渲染/仿原神渲染记录(URP HLSL)/代码",
+    "图形学/渲染/仿原神渲染记录(URP HLSL)/原神URP--Shader.md",
+    "图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲描边--ToonOutlinePass.md",
+    "图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲前向Pss--ToonForwardPass.md",
+    "图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲Shader源码分析--输入.md",
+    "图形学/渲染/Shader基础/Shader 技巧.md",
+    "图形学/渲染/Shader基础",
+    "图形学/渲染/Shader基础/Shader为什么最好不要有分支.md",
+    "游戏开发/输入管理/res/Pasted image 20241022162957.png",
     "游戏开发/寻路/res/Pasted image 20241018131012.png",
     "游戏开发/寻路/res/Pasted image 20241018103140.png",
     "游戏开发/寻路/res/Pasted image 20241018103048.png",
     "游戏开发/寻路/res/Pasted image 20241018102906.png",
-    "游戏开发/寻路/res",
-    "游戏开发/编辑器拓展/子弹监控/子弹监控树BulletAnalyzeTreeView.md",
-    "游戏开发/寻路",
-    "游戏开发/编辑器拓展/子弹监控/编辑器程序集访问游戏核心程序集.md",
-    "游戏开发/角色框架/角色系统/Actor基类.md",
-    "游戏开发/编辑器拓展/IMGUI-EditorGUI(Layout) -TreeView树形结构实现--子弹监控工具实现.md",
-    "游戏开发/角色框架/未命名.md",
-    "游戏开发/角色框架/角色系统",
-    "游戏开发/未命名.md",
-    "游戏开发/角色框架",
-    "游戏开发/编辑器拓展/IMGUI-GUI(Layout).md",
-    "游戏开发/编辑器拓展/UIElements.md",
-    "Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
-    "Lua/Lua 协程.md",
-    "Lua/Lua 元表.md",
-    "C Sharp/奇技淫巧之局部类型partial.md",
-    "C Sharp/装箱拆箱Boxing消耗.md",
-    "C Sharp/Unity 协程.md",
-    "C Sharp/C Sharp基础--特性Attribute和反射Reflection.md",
-    "游戏开发/编辑器拓展/Unity的EditorWindow类.md",
-    "游戏开发/编辑器拓展/子弹监控",
-    "游戏开发/编辑器拓展/IMGUI-EditorGUI(Layout).md",
-    "C++/基础知识/⭐⭐⭐虚函数与多态.md",
     "游戏开发/编辑器拓展/res/Pasted image 20241008151052.png",
-    "游戏开发/编辑器拓展/res",
-    "游戏开发/编辑器拓展/游戏工具与编辑器/技能编辑器.md",
-    "游戏开发/编辑器拓展/搜索器/局内搜索器.md",
-    "游戏开发/编辑器拓展/监控器/角色监控器基类ActorMonitorWindow.md",
-    "图形学/庄懂技术美术课程",
     "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930152223.png",
     "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930151101.png",
     "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930151032.png",
     "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930114545.png",
-    "游戏开发/编辑器拓展/监控器/res/Pasted image 20240930114420.png",
-    "游戏开发/编辑器拓展/监控器/res",
-    "游戏开发/性能优化/IL2CPP 性能优化.md",
-    "游戏开发/行为树Node Canvas/Node Canvas使用.md",
-    "游戏开发/性能优化",
-    "C Sharp/未命名",
     "游戏开发/Untitled.canvas"
   ]
 }
