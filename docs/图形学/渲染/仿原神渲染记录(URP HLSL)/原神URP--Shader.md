@@ -412,3 +412,7 @@ Shader "URPGenshinToon"
 
 }
 ```
+
+# 输入资产
+## 总体
++ BaseMap：原神人物的基础材质
