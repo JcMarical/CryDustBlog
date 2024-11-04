@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/算法与数据结构/图算法/图论算法/5. Union-Find 并查集算法.md",
+                "file": "docs/C++/基础知识/⭐⭐⭐虚函数与多态.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Union-Find 并查集算法"
+              "title": "⭐⭐⭐虚函数与多态"
             }
           },
           {
@@ -206,10 +206,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/算法与数据结构/图算法/图论算法/5. Union-Find 并查集算法.md"
+                "file": "docs/C++/基础知识/⭐⭐⭐虚函数与多态.md"
               },
               "icon": "lucide-list",
-              "title": "5. Union-Find 并查集算法 的大纲"
+              "title": "⭐⭐⭐虚函数与多态 的大纲"
             }
           }
         ],
@@ -231,8 +231,10 @@
   },
   "active": "fc61da9adc7d480f",
   "lastOpenFiles": [
-    "docs/算法与数据结构/图算法/图论算法/4. 二分图判定&&双色问题.md",
+    "C++多态--虚函数机制.jpg",
+    "docs/算法与数据结构/图算法/图论算法/8.Dijkstra算法.md",
     "docs/算法与数据结构/图算法/图论算法/5. Union-Find 并查集算法.md",
+    "docs/算法与数据结构/图算法/图论算法/4. 二分图判定&&双色问题.md",
     "docs/算法与数据结构/图算法/图论算法/3. 名流问题.md",
     "docs/算法与数据结构/图算法/图论算法/2. 环检测与拓补排序.md",
     "docs/算法与数据结构/图算法/图论算法/1. 图的存储.md",
@@ -266,7 +268,6 @@
     "docs/图形学/渲染/庄懂技术美术课程/第一节.md",
     "docs/图形学/渲染/庄懂技术美术课程",
     "docs/图形学/渲染/仿原神渲染记录(URP HLSL)/原神URP--后处理.md",
-    "docs/图形学/渲染/仿原神渲染记录(URP HLSL)/代码.md",
     "docs/图形学/渲染/仿原神渲染记录(URP HLSL)",
     "docs/图形学/渲染/res/Pasted image 20241027205031.png",
     "docs/图形学/渲染/res/Pasted image 20240731225223.png",
@@ -275,7 +276,6 @@
     "docs/图形学/渲染/res/Pasted image 20240731224340.png",
     "docs/图形学/渲染/res/Pasted image 20240731224136.png",
     "docs/图形学/渲染/res",
-    "docs/图形学/渲染/Shader基础",
-    "docs/Lua/Lua 类模拟.md"
+    "docs/图形学/渲染/Shader基础"
   ]
 }
