@@ -8,73 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dc5944a344d90a73",
+            "id": "5f4ffbc2fdc23a75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/游戏开发/动画系统/RE3：使用Cinemachine 进行相机控制.md",
+                "file": "docs/游戏开发/Unity GC/BOHEM GC探究.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RE3：使用Cinemachine 进行相机控制"
+              "title": "BOHEM GC探究"
             }
           },
           {
-            "id": "470c68d563a971fe",
+            "id": "e676087712001d79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/游戏开发/动画系统/RE4：跳跃.md",
+                "file": "docs/其他/知识点目录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RE4：跳跃"
+              "title": "知识点目录"
             }
           },
           {
-            "id": "23b9ce6ba50fdd5b",
+            "id": "8133bcdfd996c5b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/算法与数据结构/算法总览.md",
+                "file": "docs/算法与数据结构/动态规划/基本技巧/1.LIS--最长递增子序列&俄罗斯套娃信封（超时）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "算法总览"
-            }
-          },
-          {
-            "id": "841680f83c5c8291",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/图形学/渲染/仿原神渲染记录(URP HLSL)/原神URP--Shader.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "原神URP--Shader"
-            }
-          },
-          {
-            "id": "fc61da9adc7d480f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/C++/基础知识/⭐⭐⭐虚函数与多态.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "⭐⭐⭐虚函数与多态"
+              "title": "1.LIS--最长递增子序列&俄罗斯套娃信封（超时）"
             }
           },
           {
@@ -87,8 +59,7 @@
               "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "GC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,11 +111,12 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 459.5
   },
   "right": {
     "id": "6293dda7084be62a",
@@ -206,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/C++/基础知识/⭐⭐⭐虚函数与多态.md"
+                "file": "docs/图形学/渲染/Cherno游戏引擎/前期准备.md"
               },
               "icon": "lucide-list",
-              "title": "⭐⭐⭐虚函数与多态 的大纲"
+              "title": "前期准备 的大纲"
             }
           }
         ],
@@ -217,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,53 +202,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fc61da9adc7d480f",
+  "active": "5f4ffbc2fdc23a75",
   "lastOpenFiles": [
-    "C++多态--虚函数机制.jpg",
-    "docs/算法与数据结构/图算法/图论算法/8.Dijkstra算法.md",
-    "docs/算法与数据结构/图算法/图论算法/5. Union-Find 并查集算法.md",
-    "docs/算法与数据结构/图算法/图论算法/4. 二分图判定&&双色问题.md",
-    "docs/算法与数据结构/图算法/图论算法/3. 名流问题.md",
-    "docs/算法与数据结构/图算法/图论算法/2. 环检测与拓补排序.md",
-    "docs/算法与数据结构/图算法/图论算法/1. 图的存储.md",
-    "docs/算法与数据结构/十大排序算法/3.插入排序.md",
-    "docs/算法与数据结构/十大排序算法/0.排序的关键指标.md",
-    "docs/算法与数据结构/十大排序算法",
-    "docs/算法与数据结构/图算法/图数据结构/并查集.md",
-    "docs/算法与数据结构/图算法/图的基础.md",
-    "docs/算法与数据结构/图算法/图数据结构",
-    "docs/算法与数据结构/图算法/图论算法",
-    "docs/图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲Shader源码分析--输入.md",
-    "docs/图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲描边--ToonOutlinePass.md",
-    "docs/图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲前向Pss--ToonForwardPass.md",
-    "docs/图形学/渲染/仿原神渲染记录(URP HLSL)/原神URP--Shader.md",
-    "docs/图形学/渲染/Shader基础/Shader 技巧.md",
-    "docs/图形学/渲染/Shader基础/Shader为什么最好不要有分支.md",
-    "docs/图形学/渲染/RayTracing in one Weekend 软光追.md",
-    "docs/图形学/Shader记录/UnityShader/模版缓冲.md",
-    "docs/游戏开发/编辑器拓展/UIElement/UIElement介绍.md",
-    "docs/游戏开发/输入管理/res/Pasted image 20241022162957.png",
-    "docs/游戏开发/输入管理/res",
-    "docs/游戏开发/输入管理/InputSystem的输入管理类.md",
-    "docs/游戏开发/输入管理",
-    "docs/游戏开发/编辑器拓展/编辑器的坑.md",
-    "docs/游戏开发/编辑器拓展/子弹监控/难顶的TREE VIEW.md",
-    "docs/游戏开发/编辑器拓展/子弹监控/源码（来不及整理了，先贴上）.md",
-    "docs/游戏开发/UI框架/res/Pasted image 20240721231510.png",
-    "docs/游戏开发/UI框架/res/Pasted image 20240721231407.png",
-    "docs/游戏开发/UI框架/res/Pasted image 20240721230919.png",
-    "docs/游戏开发/UI框架/res",
-    "docs/图形学/渲染/庄懂技术美术课程/第一节.md",
-    "docs/图形学/渲染/庄懂技术美术课程",
-    "docs/图形学/渲染/仿原神渲染记录(URP HLSL)/原神URP--后处理.md",
-    "docs/图形学/渲染/仿原神渲染记录(URP HLSL)",
-    "docs/图形学/渲染/res/Pasted image 20241027205031.png",
-    "docs/图形学/渲染/res/Pasted image 20240731225223.png",
-    "docs/图形学/渲染/res/Pasted image 20240731224754.png",
-    "docs/图形学/渲染/res/Pasted image 20240731224632.png",
-    "docs/图形学/渲染/res/Pasted image 20240731224340.png",
-    "docs/图形学/渲染/res/Pasted image 20240731224136.png",
-    "docs/图形学/渲染/res",
-    "docs/图形学/渲染/Shader基础"
+    "docs/其他/Lua/Lua和C Sharp内存管理.md",
+    "docs/其他/Lua/Lua 弱引用.md",
+    "docs/其他/Lua/⭐Lua 元表.md",
+    "docs/其他/Lua/⭐Lua 协程.md",
+    "docs/其他/Lua/⭐Lua 面向对象-CLASS模拟、继承模拟.md",
+    "docs/其他/Lua/⭐Lua闭包.md",
+    "docs/其他/Lua/⭐Lua GC.md",
+    "docs/其他/Lua/LUA入门.md",
+    "docs/其他/Lua/《{Programming in Lua》/rawset和rawget绕过元表.md",
+    "docs/其他/Lua/⭐避免全局变量泛滥or创建新值.md",
+    "docs/其他/Lua/⭐Lua 垃圾回收.md",
+    "docs/图形学/动画/3D动画基础知识.md",
+    "docs/图形学/物理/2.运动.md",
+    "docs/图形学/物理/3.刚体动力学.md",
+    "docs/图形学/物理/1.力.md",
+    "docs/图形学/渲染/☆CryDust游戏引擎开发/45.ECS --entt设置.md",
+    "docs/图形学/物理/4.碰撞检测.md",
+    "Pasted image 20241215173210.png",
+    "docs/图形学/渲染/☆CryDust游戏引擎开发/1.前期准备.md",
+    "docs/index.md",
+    "docs/blog/index.md",
+    "docs/其他/关于我/游戏项目.md",
+    "docs/算法与数据结构/LEETCODE HOT100 速通 Any%.md",
+    "docs/C++/数据结构与STL/⭐⭐⭐十大排序及比较.md",
+    "docs/图形学/渲染/☆CryDust游戏引擎开发/32.开始2D渲染器.md",
+    "docs/算法与数据结构/动态规划/基本技巧/2.备忘录的思维转换--下降路径.md",
+    "docs/其他/11月问题记录.md",
+    "Pasted image 20241213160258.png",
+    "Pasted image 20241213030151.png",
+    "Pasted image 20241212223053.png",
+    "Pasted image 20241212222720.png",
+    "Pasted image 20241212153756.png",
+    "Pasted image 20241210160238.png",
+    "docs/其他/数字图像处理/课程",
+    "docs/图形学/物理",
+    "docs/图形学/动画",
+    "Pasted image 20241125202047.png",
+    "docs/其他/面经",
+    "Pasted image 20241116111624.png",
+    "Pasted image 20241116111005.png",
+    "docs/游戏开发/Unity转UE",
+    "docs/算法与数据结构/动态规划/题型总结",
+    "docs/其他/数字图像处理/图像处理实验",
+    "docs/其他/数字图像处理",
+    "docs/其他",
+    "docs/算法与数据结构/动态规划/基本技巧"
   ]
 }
