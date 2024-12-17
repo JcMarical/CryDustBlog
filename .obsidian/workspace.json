@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/游戏开发/Unity GC/BOHEM GC探究.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BOHEM GC探究"
+              "title": "index"
             }
           },
           {
@@ -90,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GC",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,8 +111,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,33 +203,33 @@
   },
   "active": "5f4ffbc2fdc23a75",
   "lastOpenFiles": [
+    "docs/blog/index.md",
+    "docs/计算机系统/汇编/汇编语言扫荡.md",
+    "docs/其他/Lua/⭐Lua 协程.md",
+    "docs/其他/Lua/⭐Lua 面向对象-CLASS模拟、继承模拟.md",
+    "docs/其他/Lua/⭐Lua 垃圾回收.md",
+    "docs/其他/面经/蛇夫座--3A.md",
+    "docs/算法与数据结构/LEETCODE HOT100 速通 Any%.md",
+    "docs/游戏开发/Unity GC/BOHEM GC探究.md",
     "docs/其他/Lua/Lua和C Sharp内存管理.md",
     "docs/其他/Lua/Lua 弱引用.md",
     "docs/其他/Lua/⭐Lua 元表.md",
-    "docs/其他/Lua/⭐Lua 协程.md",
-    "docs/其他/Lua/⭐Lua 面向对象-CLASS模拟、继承模拟.md",
     "docs/其他/Lua/⭐Lua闭包.md",
     "docs/其他/Lua/⭐Lua GC.md",
     "docs/其他/Lua/LUA入门.md",
     "docs/其他/Lua/《{Programming in Lua》/rawset和rawget绕过元表.md",
     "docs/其他/Lua/⭐避免全局变量泛滥or创建新值.md",
-    "docs/其他/Lua/⭐Lua 垃圾回收.md",
     "docs/图形学/动画/3D动画基础知识.md",
     "docs/图形学/物理/2.运动.md",
     "docs/图形学/物理/3.刚体动力学.md",
     "docs/图形学/物理/1.力.md",
-    "docs/图形学/渲染/☆CryDust游戏引擎开发/45.ECS --entt设置.md",
+    "docs/图形学/渲染/⭐CryDust自研游戏引擎开发/45.ECS --entt设置.md",
     "docs/图形学/物理/4.碰撞检测.md",
     "Pasted image 20241215173210.png",
-    "docs/图形学/渲染/☆CryDust游戏引擎开发/1.前期准备.md",
+    "docs/图形学/渲染/⭐CryDust自研游戏引擎开发/1.前期准备.md",
     "docs/index.md",
-    "docs/blog/index.md",
     "docs/其他/关于我/游戏项目.md",
-    "docs/算法与数据结构/LEETCODE HOT100 速通 Any%.md",
     "docs/C++/数据结构与STL/⭐⭐⭐十大排序及比较.md",
-    "docs/图形学/渲染/☆CryDust游戏引擎开发/32.开始2D渲染器.md",
-    "docs/算法与数据结构/动态规划/基本技巧/2.备忘录的思维转换--下降路径.md",
-    "docs/其他/11月问题记录.md",
     "Pasted image 20241213160258.png",
     "Pasted image 20241213030151.png",
     "Pasted image 20241212223053.png",
