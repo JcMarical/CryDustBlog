@@ -1,0 +1,19 @@
+# DOTS与ECS
+- World：ComponentSystem，EntityManager
+- Entity:
+	- 本质
+	- 组合原型ArcheType
+	- EntityQuery
+- Component：
+- System：
+	- SystemBase
+	- 生命周期：OnStartRunning、OnUpdate、OnStopRunning、OnDestroy
+	- Entities.Foreach遍历
+	- Job.WithCode匿名Job
+	- IJobChunk机制
+- JobSystem：
+	- NativeContainer共享容器
+	- IJob：数据+Execute
+	- IJobParelleFor并行化
+
+# 帧同步和状态同步

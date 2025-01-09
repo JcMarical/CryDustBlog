@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/编辑器拓展/IMGUI-EditorGUI(Layout).md",
+                "file": "图形学/⭐CryDust自研游戏引擎开发/48.添加相机组件，渲染移动到Scene中.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IMGUI-EditorGUI(Layout)"
+              "title": "48.添加相机组件，渲染移动到Scene中"
+            }
+          },
+          {
+            "id": "01091d3dd020fe6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "图形学/渲染/ComputeShader/ComputerShader--大规模粒子渲染.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ComputerShader--大规模粒子渲染"
             }
           },
           {
@@ -83,16 +97,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/编辑器拓展/子弹监控/源码（来不及整理了，先贴上）.md",
+                "file": "图形学/⭐CryDust自研游戏引擎开发/48.添加相机组件，渲染移动到Scene中.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "源码（来不及整理了，先贴上）"
+              "title": "48.添加相机组件，渲染移动到Scene中"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -123,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TreeVIew",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -144,8 +158,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,10 +211,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/编辑器拓展/子弹监控/源码（来不及整理了，先贴上）.md"
+                "file": "图形学/⭐CryDust自研游戏引擎开发/76.Python脚本自动检查环境，编译项目.md"
               },
               "icon": "lucide-list",
-              "title": "源码（来不及整理了，先贴上） 的大纲"
+              "title": "76.Python脚本自动检查环境，编译项目 的大纲"
             }
           },
           {
@@ -219,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,54 +245,54 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "a266017f7a0ce736",
+  "active": "01091d3dd020fe6d",
   "lastOpenFiles": [
-    "游戏开发/UI框架/游戏UI框架设计概览.md",
-    "游戏开发/编辑器拓展/子弹监控/源码（来不及整理了，先贴上）.md",
-    "游戏开发/UI框架/res/Pasted image 20240721231407.png",
-    "游戏开发/UI框架/res/Pasted image 20240721230919.png",
-    "游戏开发/UI框架/res/Pasted image 20240721231510.png",
-    "游戏开发/UI框架/res",
-    "游戏开发/UI框架/限时概览设计方案.md",
+    "图形学/渲染/ComputeShader/res/Pasted image 20241230041724.png",
+    "图形学/渲染/ComputeShader/res",
+    "图形学/渲染/ComputeShader",
+    "游戏开发/JobSystem/JobSystem 入门.md",
+    "图形学/渲染/ComputeShader/ComputerShader--大规模粒子渲染.md",
+    "图形学/渲染/URP/屏幕后处理--ScriptableRendererFeature.md",
+    "游戏开发/JobSystem",
+    "图形学/渲染/URP/URP屏幕后处理.md",
+    "图形学/渲染/体积光.md",
+    "图形学/渲染/URP",
+    "图形学/渲染/体积云/体积云.md",
     "图形学/渲染/RayTracing in one Weekend 软光追.md",
-    "图形学/渲染/res/Pasted image 20240731224754.png",
-    "图形学/渲染/res/Pasted image 20240731224632.png",
-    "图形学/渲染/res/Pasted image 20240731224340.png",
-    "图形学/渲染/res/Pasted image 20240731224136.png",
-    "图形学/渲染/res/Pasted image 20240731131437.png",
-    "图形学/渲染/res/Pasted image 20240731131026.png",
-    "图形学/渲染/res/Pasted image 20240731095225.png",
+    "图形学/⭐CryDust自制游戏小引擎/89.圆的渲染.md",
+    "图形学/⭐CryDust自制游戏小引擎/88.场景重置和复制.md",
+    "图形学/⭐CryDust自制游戏小引擎/87.唯一标识UUID（Universal unique ID）.md",
+    "图形学/⭐CryDust自制游戏小引擎/86.CryDust支持.md",
+    "图形学/⭐CryDust自制游戏小引擎/85.☆Box2D物理引擎入门.md",
+    "图形学/⭐CryDust自制游戏小引擎/84.代码修复、维护.md",
+    "图形学/⭐CryDust自制游戏小引擎/83.增加开始和暂停按钮.md",
+    "图形学/⭐CryDust自制游戏小引擎/82.现在的功能和未来的计划.md",
+    "图形学/⭐CryDust自制游戏小引擎/79.处理ISSUE.md",
+    "图形学/⭐CryDust自制游戏小引擎/81.拖拽纹理(实体材质系统).md",
+    "图形学/⭐CryDust自制游戏小引擎/71.代码维护.md",
+    "图形学/⭐CryDust自制游戏小引擎/res/Pasted image 20241226225123.png",
+    "图形学/⭐CryDust自制游戏小引擎/res/Pasted image 20241226225119.png",
+    "图形学/⭐CryDust自制游戏小引擎/80.资源浏览器增加拖拽功能(拖拽打开场景).md",
+    "图形学/⭐CryDust自制游戏小引擎/78.内容浏览器缩略布局.md",
+    "图形学/⭐CryDust自制游戏小引擎/77.资源浏览面板显示文件.md",
+    "图形学/⭐CryDust自制游戏小引擎/76.Python脚本自动检查环境，编译项目.md",
+    "图形学/⭐CryDust自制游戏小引擎/res/Pasted image 20241226190144.png",
+    "图形学/⭐CryDust自制游戏小引擎/75.（实践）Vulkan、SPIR-V和新Shader系统.md",
+    "图形学/⭐CryDust自制游戏小引擎/74.（理论）Vulkan、SPIR-V和新Shader系统.md",
+    "图形学/⭐CryDust自制游戏小引擎/res/Pasted image 20241224044516.png",
+    "图形学/⭐CryDust自制游戏小引擎/res/Pasted image 20241224044005.png",
+    "图形学/⭐CryDust自制游戏小引擎/73.左键选中实体!!!.md",
+    "图形学/⭐CryDust自制游戏小引擎/res/Pasted image 20241223224708.png",
+    "图形学/⭐CryDust自制游戏小引擎/res/Pasted image 20241223194444.png",
+    "图形学/渲染/Worley Noise 细胞噪声生成器/res/Pasted image 20241222213304.png",
+    "图形学/渲染/Worley Noise 细胞噪声生成器/res/Pasted image 20241222204431.png",
+    "图形学/渲染/Worley Noise 细胞噪声生成器/res",
+    "图形学/渲染/Worley Noise 细胞噪声生成器",
+    "图形学/渲染/体积云",
+    "图形学/⭐CryDust自制游戏小引擎/res/Pasted image 20241217215751.png",
+    "图形学/⭐CryDust自制游戏小引擎/res",
+    "游戏开发/UI框架/res",
     "图形学/渲染/res",
-    "游戏开发/编辑器拓展/编辑器的坑.md",
-    "网络/Unity网络编程/第一部分 网络聊天室.md",
-    "网络/Unity网络编程",
-    "游戏开发/编辑器拓展/UIElement/UXML.md",
-    "游戏开发/编辑器拓展/UIElement/UIElement介绍.md",
-    "游戏开发/编辑器拓展/UIElement",
-    "游戏开发/Unity基础/Unity 协程.md",
-    "游戏开发/Unity基础",
-    "游戏开发/AA包Adressable/Addressable介绍.md",
-    "游戏开发/AA包Adressable",
-    "图形学/庄懂TA/第四节 SSS次表面散射.md",
-    "图形学/庄懂TA/第六节.md",
-    "图形学/庄懂TA/第五、六节 像素Shader光照模型.md",
-    "图形学/庄懂TA/第三节 Shader代码.md",
-    "图形学/庄懂TA/第一、二节 Lambert光照.md",
-    "图形学/庄懂TA",
-    "图形学/Shader记录/UnityShader/模版缓冲.md",
-    "图形学/Shader记录/UnityShader",
-    "图形学/Shader记录",
-    "关于我/游戏项目.md",
-    "关于我/学习计划.md",
-    "关于我",
-    "Lua/Lua 类模拟.md",
-    "游戏开发/编辑器拓展/子弹监控/难顶的TREE VIEW.md",
-    "游戏开发/编辑器拓展/子弹监控/编辑器程序集访问游戏核心程序集.md",
-    "图形学/渲染/仿原神渲染记录(URP HLSL)/代码.md",
-    "图形学/渲染/仿原神渲染记录(URP HLSL)/代码/未命名.md",
-    "图形学/渲染/仿原神渲染记录(URP HLSL)/原神URP--后处理.md",
-    "图形学/渲染/仿原神渲染记录(URP HLSL)/原神URP--Shader.md",
-    "图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲描边--ToonOutlinePass.md",
     "游戏开发/Untitled.canvas"
   ]
 }

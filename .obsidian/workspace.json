@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/其他/知识点目录/图形学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "图形学"
             }
           },
           {
@@ -111,7 +111,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,53 +202,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5f4ffbc2fdc23a75",
+  "active": "cd28554163d63caa",
   "lastOpenFiles": [
-    "docs/blog/index.md",
-    "docs/计算机系统/汇编/汇编语言扫荡.md",
-    "docs/其他/Lua/⭐Lua 协程.md",
-    "docs/其他/Lua/⭐Lua 面向对象-CLASS模拟、继承模拟.md",
-    "docs/其他/Lua/⭐Lua 垃圾回收.md",
-    "docs/其他/面经/蛇夫座--3A.md",
-    "docs/算法与数据结构/LEETCODE HOT100 速通 Any%.md",
-    "docs/游戏开发/Unity GC/BOHEM GC探究.md",
-    "docs/其他/Lua/Lua和C Sharp内存管理.md",
-    "docs/其他/Lua/Lua 弱引用.md",
-    "docs/其他/Lua/⭐Lua 元表.md",
-    "docs/其他/Lua/⭐Lua闭包.md",
-    "docs/其他/Lua/⭐Lua GC.md",
-    "docs/其他/Lua/LUA入门.md",
-    "docs/其他/Lua/《{Programming in Lua》/rawset和rawget绕过元表.md",
-    "docs/其他/Lua/⭐避免全局变量泛滥or创建新值.md",
-    "docs/图形学/动画/3D动画基础知识.md",
-    "docs/图形学/物理/2.运动.md",
-    "docs/图形学/物理/3.刚体动力学.md",
-    "docs/图形学/物理/1.力.md",
-    "docs/图形学/渲染/⭐CryDust自研游戏引擎开发/45.ECS --entt设置.md",
-    "docs/图形学/物理/4.碰撞检测.md",
-    "Pasted image 20241215173210.png",
-    "docs/图形学/渲染/⭐CryDust自研游戏引擎开发/1.前期准备.md",
-    "docs/index.md",
+    "docs/其他/知识点目录/Unity.md",
+    "docs/其他/知识点目录/图形学.md",
+    "docs/其他/知识点目录/知识点目录.md",
+    "docs/其他/知识点目录/⭐C++知识点总结.md",
     "docs/其他/关于我/游戏项目.md",
-    "docs/C++/数据结构与STL/⭐⭐⭐十大排序及比较.md",
+    "docs/其他/面经/蛇夫座--3A.md",
+    "docs/其他/知识点目录",
+    "docs/其他/11月问题记录.md",
+    "docs/其他/学习计划.md",
+    "docs/游戏开发/JobSystem与DOTS/DOTS 与 ECS.md",
+    "docs/游戏开发/JobSystem与DOTS/JobSystem 入门（一）JobSystem基础介绍.md",
+    "docs/游戏开发/JobSystem与DOTS/JobSystem 入门（二）JobSystem的使用.md",
+    "docs/游戏开发/JobSystem与DOTS/未命名",
+    "Pasted image 20250108103314.png",
+    "docs/游戏开发/MVC/MVC设计.md",
+    "docs/游戏开发/未命名",
+    "Pasted image 20250103191200.png",
+    "docs/算法与数据结构/LEETCODE HOT100 速通 Any%.md",
+    "docs/游戏开发/MVC",
+    "docs/C++/数据结构与STL/Vector机制.md",
+    "docs/C++/数据结构与STL/手写STL/红黑树.md",
+    "docs/C++/内存相关/内存泄漏的定位.md",
+    "docs/C++/内存相关/C++读取一个变量的过程.md",
+    "docs/C++/内存相关/⭐编译和链接、函数调用顺序.md",
+    "docs/C++/内存相关/⭐内存大小、内存对齐与sizeof().md",
+    "docs/C++/基础知识/new、delete动态分配.md",
+    "docs/C++/基础知识/new 和 malloc.md",
+    "docs/C++/基础知识/c++默认八种构造函数.md",
+    "docs/C++/基础知识/C++ this.md",
+    "docs/C++/基础知识/重载、重写（覆盖）、隐藏.md",
+    "docs/C++/基础知识/运行调用顺序.md",
+    "docs/C++/C++ 网站.md",
+    "Pasted image 20241231211156.png",
+    "docs/图形学/渲染/ComputeShader/res/Pasted image 20241230041724.png",
+    "docs/图形学/渲染/ComputeShader/res",
+    "Pasted image 20241215173210.png",
     "Pasted image 20241213160258.png",
     "Pasted image 20241213030151.png",
     "Pasted image 20241212223053.png",
     "Pasted image 20241212222720.png",
     "Pasted image 20241212153756.png",
-    "Pasted image 20241210160238.png",
     "docs/其他/数字图像处理/课程",
     "docs/图形学/物理",
     "docs/图形学/动画",
-    "Pasted image 20241125202047.png",
     "docs/其他/面经",
-    "Pasted image 20241116111624.png",
-    "Pasted image 20241116111005.png",
-    "docs/游戏开发/Unity转UE",
-    "docs/算法与数据结构/动态规划/题型总结",
-    "docs/其他/数字图像处理/图像处理实验",
-    "docs/其他/数字图像处理",
-    "docs/其他",
-    "docs/算法与数据结构/动态规划/基本技巧"
+    "docs/游戏开发/Unity转UE"
   ]
 }
