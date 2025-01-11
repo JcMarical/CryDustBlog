@@ -96,7 +96,7 @@ plugins:
   - blog:
       enabled: true
       blog_toc: true
-      post_dir: obsidian-vault/posts
+      post_dir: docs/
       post_date_format: yyyy-MM-dd
       post_url_format: "posts/{slug}"
       post_excerpt: required

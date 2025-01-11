@@ -13,26 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/blog/index.md",
+                "file": "docs/其他/三维重建/综合设计文档II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "综合设计文档II"
             }
           },
           {
             "id": "e676087712001d79",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/其他/知识点目录.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "知识点目录"
+              "title": "新标签页"
             }
           },
           {
@@ -203,6 +199,14 @@
   },
   "active": "5f4ffbc2fdc23a75",
   "lastOpenFiles": [
+    "overrides/test.txt",
+    "overrides/新建 文本文档.txt",
+    "docs/算法与数据结构/动态规划/基本技巧/1.LIS--最长递增子序列&俄罗斯套娃信封（超时）.md",
+    "docs/其他/三维重建/综合设计文档II.md",
+    "未命名.canvas",
+    "docs/其他/三维重建",
+    "docs/未命名",
+    "docs/blog/index.md",
     "overrides",
     "新建文件夹",
     "custom_dir",
@@ -234,20 +238,13 @@
     "docs/C++/基础知识/new、delete动态分配.md",
     "docs/C++/基础知识/new 和 malloc.md",
     "docs/C++/基础知识/c++默认八种构造函数.md",
-    "docs/C++/基础知识/C++ this.md",
-    "docs/C++/基础知识/重载、重写（覆盖）、隐藏.md",
-    "docs/C++/基础知识/运行调用顺序.md",
     "Pasted image 20241231211156.png",
     "docs/图形学/渲染/ComputeShader/res/Pasted image 20241230041724.png",
-    "docs/图形学/渲染/ComputeShader/res",
     "Pasted image 20241215173210.png",
     "Pasted image 20241213160258.png",
     "Pasted image 20241213030151.png",
     "Pasted image 20241212223053.png",
     "Pasted image 20241212222720.png",
-    "Pasted image 20241212153756.png",
-    "docs/其他/数字图像处理/课程",
-    "docs/图形学/物理",
-    "docs/图形学/动画"
+    "Pasted image 20241212153756.png"
   ]
 }
