@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/其他/三维重建/综合设计文档II.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "综合设计文档II"
+              "title": "index"
             }
           },
           {
@@ -86,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "index",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 1147.5
   },
   "right": {
     "id": "6293dda7084be62a",
@@ -199,14 +199,14 @@
   },
   "active": "5f4ffbc2fdc23a75",
   "lastOpenFiles": [
+    "docs/blog/index.md",
+    "docs/其他/三维重建/综合设计文档II.md",
     "overrides/test.txt",
     "overrides/新建 文本文档.txt",
     "docs/算法与数据结构/动态规划/基本技巧/1.LIS--最长递增子序列&俄罗斯套娃信封（超时）.md",
-    "docs/其他/三维重建/综合设计文档II.md",
     "未命名.canvas",
     "docs/其他/三维重建",
     "docs/未命名",
-    "docs/blog/index.md",
     "overrides",
     "新建文件夹",
     "custom_dir",
@@ -228,7 +228,6 @@
     "docs/游戏开发/未命名",
     "Pasted image 20250103191200.png",
     "docs/算法与数据结构/LEETCODE HOT100 速通 Any%.md",
-    "docs/游戏开发/MVC",
     "docs/C++/数据结构与STL/Vector机制.md",
     "docs/C++/数据结构与STL/手写STL/红黑树.md",
     "docs/C++/内存相关/内存泄漏的定位.md",

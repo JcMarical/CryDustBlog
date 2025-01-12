@@ -1,9 +1,18 @@
-# 简介
+# 主页
 欢迎来到晶尘的 Blog(*^▽^*)~
 
 本人目前为电子科技大学 2026 届在读学生一枚，热爱图形学与游戏开发，目前已有腾讯天美工作室实习经历。
 
 如果我的博客对你有帮助的话，欢迎收藏~
+
+# 内容索引
+<div class="grid cards" markdown>
+
+- :fontawesome-solid-note-sticky: Note
+
+- [:fontawesome-solid-blog: Blog](blog/index.md)
+
+</div>
 
 # 站点信息
 

@@ -78,17 +78,51 @@ theme:
 
 # Markdown扩展
 markdown_extensions:
-  - footnotes:
-  - attr_list: #HTML元素
-  - pymdownx.details: #数学表达式 
-  - pymdownx.magiclink: #超级代码块
-  - pymdownx.tasklist: #任务列表
-  #     custom_checkbox: true
-  - pymdownx.emoji: #表情符号
-  # emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - admonition: #注意警告栏
+  - abbr
+  - tables
+  - attr_list
+  - md_in_html
+  - footnotes
+  - admonition
+  - callouts
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      # auto_title: true
+      # linenums: true
+      # anchor_linenums: true
+      # line_spans: __span # When this option is set, each line of a code block is wrapped in a span, which is essential for features like line highlighting to work correctly
+      use_pygments: true
+
+      # https://facelessuser.github.io/pymdown-extensions/extensions/highlight/#extended-pygments-lexer-options
+      extend_pygments_lang:
+        - name: antlr4
+          lang: antlr
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true 
   - toc:
+      # https://python-markdown.github.io/extensions/toc/
       permalink: true
+      separator: "-"
+      # 生成可读的 unicode slug
+      # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#+toc.slugify
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {}
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
