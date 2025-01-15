@@ -8,9 +8,11 @@
 # 内容索引
 <div class="grid cards" markdown>
 
-- :fontawesome-solid-note-sticky: Note
+- :fontawesome-solid-note-sticky: Index
 
 - [:fontawesome-solid-blog: Blog](blog/index.md)
+
+- [:fontawesome-solid-blog: Note](笔记/笔记主页.md)
 
 </div>
 
