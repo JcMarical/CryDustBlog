@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/笔记/图形学/⭐CryDust自制游戏小引擎/1.前期准备.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "1.前期准备"
             }
           },
           {
@@ -199,8 +199,8 @@
   },
   "active": "5f4ffbc2fdc23a75",
   "lastOpenFiles": [
-    "docs/笔记/笔记主页.md",
     "docs/index.md",
+    "docs/笔记/笔记主页.md",
     "docs/blog/index.md",
     "未命名.canvas",
     "docs/笔记/工作与求职/面经/蛇夫座--3A.md",
