@@ -1,4 +1,6 @@
 本文参考[Custom Render Pipeline --- 自定义渲染管线](https://catlikecoding.com/unity/tutorials/custom-srp/custom-render-pipeline/)，实现Unity自定义渲染管线
+源码地址：
+[RenderProject/Assets/Custom RP at main · JcMarical/RenderProject](https://github.com/JcMarical/RenderProject/tree/main/Assets/Custom%20RP)
 # 一.前置准备
 ## 创建管线资源
 学习URP,在Custom RP/Runtime文件夹下创建CustomRenderPipelineAsset
@@ -9,7 +11,7 @@ using UnityEngine.Rendering;
 [CreateAssetMenu(menuName = "Rendering/Custom Render Pipeline")]
 public class CustomRenderPipelineAsset : RenderPipelineAsset {}
 ```
-RPAsset主要用途是为 Unity 提供一种方法来获取负责渲染的管道对象实例,资源本身只是一个句柄和一个存储设置的地方,我们还没有任何设置。
+RPAsset主要用途是为 Unity 提供一种方法来获取负责渲染的管道对象实例,资源本身只是一个句柄和一个存储设置的地-方,我们还没有任何设置。
 
 ### 重写创建管线方法
 ```c++
