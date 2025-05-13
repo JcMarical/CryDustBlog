@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/笔记/C++/基础知识/⭐⭐⭐虚函数与多态.md",
+                "file": "docs/笔记/算法与数据结构/Leetcode hot 100 二刷.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "⭐⭐⭐虚函数与多态"
+              "title": "Leetcode hot 100 二刷"
+            }
+          },
+          {
+            "id": "6ca6c874dcfde539",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/笔记/其他/知识点目录/知识点目录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "知识点目录"
+            }
+          },
+          {
+            "id": "97ddffb6b5f14a0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/笔记/其他/Lua/《{Programming in Lua》/第二部分《Programming in Lua》编程实操.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "第二部分《Programming in Lua》编程实操"
             }
           },
           {
@@ -27,24 +55,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/笔记/图形学/渲染/Unity SRP学习记录/Untiy 可编程渲染管线(七) LOD和反射.md",
+                "file": "docs/blog/Unity的四种批处理方式（动态合批，静态合批，SRP Batcher和GPU Instance）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untiy 可编程渲染管线(七) LOD和反射"
+              "title": "Unity的四种批处理方式（动态合批，静态合批，SRP Batcher和GPU Instance）"
             }
           },
           {
             "id": "7d51ef7d129e0ab6",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.4"
+                "file": "docs/笔记/算法与数据结构/LEETCODE HOT100 速通 Any%.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "icon": "lucide-file",
+              "title": "LEETCODE HOT100 速通 Any%"
             }
           },
           {
@@ -53,12 +83,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/笔记/计算机系统/【C++多线程】零基础到线程池.md",
+                "file": "docs/笔记/工作与求职/面经/字节 一面.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【C++多线程】零基础到线程池"
+              "title": "字节 一面"
+            }
+          },
+          {
+            "id": "45158ade5770dbfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/笔记/其他/知识点目录/算法总览.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "算法总览"
             }
           },
           {
@@ -67,12 +111,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/笔记/其他/知识点目录/⭐C++知识点总结.md",
+                "file": "docs/笔记/其他/知识点目录/C和C++知识点总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "⭐C++知识点总结"
+              "title": "C和C++知识点总结"
+            }
+          },
+          {
+            "id": "969dbb38dc4d3efa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           },
           {
@@ -93,14 +147,46 @@
             "id": "23222f89712e34d6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/笔记/图形学/⭐CryDust自制游戏小引擎/87.唯一标识UUID（Universal unique ID）.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "87.唯一标识UUID（Universal unique ID）"
+            }
+          },
+          {
+            "id": "01a421143f36c45f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/笔记/图形学/⭐CryDust自制游戏小引擎/77.资源浏览面板显示文件.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "77.资源浏览面板显示文件"
+            }
+          },
+          {
+            "id": "4c21991ccd9bac35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/笔记/图形学/渲染/全局光照/DDGI实现/DDGI 实现记录（六）探针分类.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DDGI 实现记录（六）探针分类"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -132,7 +218,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "王者荣耀",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,7 +243,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 552.504997253418
   },
   "right": {
     "id": "6293dda7084be62a",
@@ -219,13 +305,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/笔记/其他/知识点目录/⭐C++知识点总结.md",
+                "file": "docs/笔记/其他/知识点目录/Unity.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "⭐C++知识点总结 的大纲"
+              "title": "Unity 的大纲"
             }
           }
         ],
@@ -233,7 +319,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,54 +332,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b5934da2c58ddfd0",
+  "active": "e676087712001d79",
   "lastOpenFiles": [
-    "docs/笔记/计算机系统/进程、线程、协程.md",
-    "docs/笔记/计算机系统/【C++多线程】零基础到线程池.md",
-    "docs/笔记/计算机系统/汇编/汇编语言扫荡.md",
-    "docs/笔记/工作与求职/面经/网易雷火.md",
-    "docs/笔记/工作与求职/面经/蛇夫座--3A.md",
-    "docs/笔记/其他/关于我/游戏项目.md",
-    "docs/笔记/计算机系统/死锁.md",
-    "docs/笔记/计算机系统/内存结构.md",
-    "docs/笔记/其他/11月问题记录.md",
-    "docs/笔记/其他/学习计划.md",
-    "docs/笔记/算法与数据结构/动态规划/题型总结/背包问题.md",
-    "docs/笔记/算法与数据结构/动态规划/题型总结/基础题型（一） 斐波那契.md",
-    "docs/笔记/算法与数据结构/算法总览.md",
-    "docs/笔记/算法与数据结构/LEETCODE HOT100 速通 Any%.md",
-    "docs/笔记/算法与数据结构/十大排序算法/3.插入排序.md",
-    "docs/笔记/算法与数据结构/十大排序算法/0.排序的关键指标.md",
-    "docs/笔记/图形学/⭐CryDust自制游戏小引擎/20. 渲染缓冲区布局.md",
-    "docs/笔记/图形学/物理/3.刚体动力学.md",
-    "docs/笔记/图形学/物理/2.运动.md",
-    "docs/笔记/图形学/动画/3D动画基础知识.md",
-    "docs/笔记/图形学/渲染/仿原神渲染记录(URP HLSL)/原神URP--后处理.md",
-    "docs/笔记/图形学/渲染/仿原神渲染记录(URP HLSL)/原神URP--Shader.md",
-    "docs/笔记/图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲Shader源码分析--输入.md",
-    "docs/笔记/图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲描边--ToonOutlinePass.md",
-    "docs/笔记/图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲前向Pss--ToonForwardPass.md",
-    "docs/笔记/图形学/渲染/光线追踪/RayTracing in one Week.md",
-    "images/Pasted image 20250221003142.png",
-    "images/Pasted image 20250221002300.png",
-    "images/Pasted image 20250221002231.png",
-    "images/Pasted image 20250221002117.png",
-    "images/Pasted image 20250221001954.png",
-    "images/Pasted image 20250220235451.png",
-    "images/Pasted image 20250220235359.png",
-    "images/Pasted image 20250220235337.png",
-    "images/Pasted image 20250220234355.png",
-    "images/Pasted image 20250220234253.png",
-    "docs/笔记/游戏开发/热更新解决方案",
+    "docs/笔记/工作与求职/面经/腾讯引擎 一面.md",
+    "docs/笔记/工作与求职/面经/字节 一面.md",
+    "docs/笔记/工作与求职/面经/网易互娱 引擎开发.md",
+    "docs/笔记/工作与求职/面经/网易互娱 引擎开发二面.md",
+    "docs/笔记/工作与求职/面经/网易互娱笔试.md",
+    "docs/笔记/工作与求职/面经/网易雷火 笔试.md",
+    "docs/笔记/工作与求职/面经/游卡 笔试.md",
+    "docs/笔记/工作与求职/面经/字节二面.md",
+    "docs/笔记/工作与求职/面经/yj引擎工具开发.md",
+    "docs/笔记/其他/知识点目录/C和C++知识点总结.md",
+    "docs/笔记/其他/知识点目录/算法总览.md",
+    "docs/笔记/其他/知识点目录/图形学.md",
+    "docs/笔记/其他/知识点目录/项目面试逐字稿.md",
+    "docs/笔记/其他/知识点目录/知识点目录.md",
+    "docs/笔记/C++/数据结构与STL/⭐⭐⭐十大排序及比较.md",
+    "docs/笔记/C++/数据结构与STL/⭐⭐A Star 寻路算法.md",
+    "docs/笔记/C++/数据结构与STL/⭐⭐map与红黑树.md",
+    "docs/笔记/C++/基础知识/⭐string类书写.md",
+    "docs/笔记/C++/基础知识/⭐Const.md",
+    "docs/笔记/C++/基础知识/⭐指针和引用的区别.md",
+    "docs/笔记/C++/基础知识/⭐牛客与笔试--奇葩题目大全.md",
+    "docs/笔记/C++/基础知识/⭐传值，深拷贝和浅拷贝.md",
+    "docs/笔记/C++/基础知识/new 和 malloc.md",
+    "docs/笔记/C++/内存相关/⭐编译和链接、函数调用顺序.md",
+    "docs/笔记/C++/内存相关/⭐内存大小、内存对齐与sizeof().md",
+    "docs/笔记/C++/内存相关/内存管理（内存分配、内存对齐）.md",
+    "docs/笔记/游戏开发/未命名 1",
+    "images/Pasted image 20250429143447.png",
+    "images/Pasted image 20250429143402.png",
+    "images/Pasted image 20250429142636.png",
+    "images/Pasted image 20250429142345.png",
+    "images/Pasted image 20250429142226.png",
+    "images/Pasted image 20250429142219.png",
+    "images/Pasted image 20250429142011.png",
+    "images/Pasted image 20250429141609.png",
+    "images/Pasted image 20250429141111.png",
+    "images/Pasted image 20250429141014.png",
+    "docs/笔记/网络/Games104/未命名",
+    "docs/笔记/网络/Games104网络架构",
+    "docs/笔记/算法与数据结构/labuladong",
+    "docs/笔记/工作与求职/面经/未命名",
+    "docs/笔记/网络/网络学习",
+    "docs/笔记/游戏开发/游戏设想--《神域》",
     "未命名.canvas",
-    "docs/笔记/图形学/渲染/GPU Instance草地渲染",
-    "docs/笔记/图形学/渲染/光线追踪",
-    "docs/笔记/图形学/渲染/Unity SRP学习记录",
-    "docs/笔记/工作与求职/面经",
-    "docs/笔记",
-    "overrides/test.txt",
-    "overrides/新建 文本文档.txt",
-    "docs/笔记/三维重建",
-    "overrides"
+    "docs/笔记/图形学/渲染/全局光照/DDGI实现/源码梳理",
+    "docs/笔记/其他/知识点目录/四大件",
+    "docs/笔记/图形学/渲染/全局光照/DDGI实现"
   ]
 }
