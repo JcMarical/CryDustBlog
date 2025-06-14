@@ -1,6 +1,10 @@
 ---
 date:
   created: 2025-06-02
+draft: true
+readtime: "30"
+pin: "true"
+links: "- Homepage: index.md"
 ---
 
 # Unity客户端学习路线

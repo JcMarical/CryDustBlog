@@ -150,3 +150,4 @@ plugins:
       pagination_format: "~2~"
       pagination_if_single_page: true
       pagination_keep_content: true
+  - meta
