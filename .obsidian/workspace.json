@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/笔记/其他/知识点目录/知识点目录.md",
+                "file": "docs/笔记/其他/知识点目录/Unity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "知识点目录"
+              "title": "Unity"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/blog/Unity客户端学习路线（初版）.md",
+                "file": "docs/笔记/其他/知识点目录/知识点目录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unity客户端学习路线（初版）"
+              "title": "知识点目录"
             }
           },
           {
@@ -172,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -318,20 +318,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "97ddffb6b5f14a0e",
+  "active": "6ca6c874dcfde539",
   "lastOpenFiles": [
-    "docs/blog/（帧同步）MOBA确定性物理碰撞计算库.md",
+    "docs/笔记/其他/知识点目录/C和C++知识点总结.md",
+    "docs/笔记/其他/知识点目录/知识点目录.md",
+    "docs/笔记/算法与数据结构/LEETCODE HOT100 速通 Any%.md",
+    "docs/笔记/工作与求职/面经/朋友的面经.md",
+    "docs/笔记/其他/知识点目录/算法总览.md",
+    "docs/笔记/其他/知识点目录/图形学.md",
+    "docs/笔记/其他/知识点目录/数学.md",
+    "docs/笔记/其他/知识点目录/设计模式.md",
+    "docs/笔记/其他/知识点目录/快速过简历.md",
+    "docs/笔记/其他/知识点目录/技术栈.md",
+    "docs/笔记/其他/知识点目录/Unity.md",
+    "docs/笔记/其他/知识点目录/项目面试逐字稿.md",
     "docs/blog/Unity客户端学习路线（初版）.md",
+    "docs/blog/（帧同步）MOBA确定性物理碰撞计算库.md",
     "docs/blog/Unity客户端学习路线（补充）.md",
     "docs/blog/未命名.md",
     "images/Unity客户端学习路线（补充）.md",
     "docs/笔记/游戏开发/帧同步/更加完整的帧同步框架/HOK帧同步.md",
-    "docs/笔记/其他/知识点目录/知识点目录.md",
     "images/Pasted image 20250608180545.png",
     "images/Pasted image 20250608175731.png",
     "images/Pasted image 20250608175652.png",
-    "docs/笔记/算法与数据结构/LEETCODE HOT100 速通 Any%.md",
-    "docs/笔记/其他/知识点目录/技术栈.md",
     "docs/blog/（帧同步）定点数运算数学库制作.md",
     "docs/笔记/游戏开发/帧同步/简易帧同步框架/王者荣耀--帧同步 客户端框架（三）.md",
     "images/Pasted image 20250604202723.png",
@@ -342,20 +351,11 @@
     "images/Pasted image 20250601041536.png",
     "images/Pasted image 20250601040602.png",
     "images/Pasted image 20250601035415.png",
-    "docs/笔记/其他/知识点目录/设计模式.md",
     "docs/blog/Unity的四种批处理方式（动态合批，静态合批，SRP Batcher和GPU Instance）.md",
-    "docs/笔记/其他/知识点目录/快速过简历.md",
     "docs/笔记/其他/Lua/《{Programming in Lua》/rawset和rawget绕过元表.md",
     "docs/笔记/其他/Lua/《{Programming in Lua》/第一部分《Programming in Lua》语言基础.md",
     "docs/笔记/其他/Lua/《{Programming in Lua》/第三部分《Programming in Lua》语言特性.md",
     "docs/笔记/其他/Lua/《{Programming in Lua》/第二部分《Programming in Lua》编程实操.md",
-    "docs/笔记/工作与求职/面经/米哈游笔试.md",
-    "docs/笔记/其他/知识点目录/C和C++知识点总结.md",
-    "docs/笔记/其他/知识点目录/比较阴的题型.md",
-    "docs/笔记/其他/知识点目录/操作系统.md",
-    "docs/笔记/其他/知识点目录/数学.md",
-    "docs/笔记/其他/知识点目录/图形学.md",
-    "docs/笔记/其他/知识点目录/项目面试逐字稿.md",
     "docs/笔记/游戏开发/帧同步/更加完整的帧同步框架",
     "docs/笔记/游戏开发/帧同步/简易帧同步框架",
     "docs/笔记/游戏开发/未命名 1",
