@@ -204,7 +204,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:-游戏开发",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -225,7 +225,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -318,8 +319,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6ca6c874dcfde539",
+  "active": "cd28554163d63caa",
   "lastOpenFiles": [
+    "docs/blog/新建 文本文档.txt",
     "docs/blog/posts/Unity的四种批处理方式（动态合批，静态合批，SRP Batcher和GPU Instance）.md",
     "docs/blog/posts/Unity客户端学习路线（初版）.md",
     "docs/blog/posts/（帧同步）定点数运算数学库制作.md",
@@ -348,7 +350,6 @@
     "images/Pasted image 20250608175731.png",
     "images/Pasted image 20250608175652.png",
     "docs/blog/（帧同步）定点数运算数学库制作.md",
-    "docs/笔记/游戏开发/帧同步/简易帧同步框架/王者荣耀--帧同步 客户端框架（三）.md",
     "images/Pasted image 20250604202723.png",
     "images/2C9100C5.png",
     "images/Pasted image 20250601043542.png",
