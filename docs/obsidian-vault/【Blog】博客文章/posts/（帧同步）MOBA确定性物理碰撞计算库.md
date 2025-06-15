@@ -1,3 +1,11 @@
+---
+date: 2026-06-12T23:13:13
+publish: true
+comments: true
+permalink: LockStep Physics
+aliases:
+---
+
 为了实现MOBA游戏，设置的简易物理碰撞计算库。
 # 实现原理
 - Unity先设置碰撞体，物理库负责获取对应的位置、碰撞体信息，减少图形化工作量

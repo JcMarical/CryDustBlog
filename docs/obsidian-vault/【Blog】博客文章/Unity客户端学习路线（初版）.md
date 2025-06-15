@@ -1,17 +1,10 @@
 ---
-date: 2024-11-29T14:50:47
-created: 2025-06-02
-draft: true
-readtime: "30"
-pin: "true"
-links: "Homepage: index.md"
-categories: 游戏开发
-authors: CryDust
-tags:
-  - 游戏开发
-slug: 学习路线
+date: 2026-06-23T23:13:13
+publish: true
+comments: true
+permalink: UnityStudy
+aliases:
 ---
-
 
 # Unity客户端学习路线
 

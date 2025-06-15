@@ -1,19 +1,36 @@
-# 主页
-Welcome To Crydust's Blog!!!
+---
 
-欢迎来到晶尘的 Blog!!!
-# Intro
+icon: material/information-outline
+
+search:
+
+  exclude: true
+
+comments: true
+
+---
+
+# Home Page
 === "English"
 
-- An undergraduate student at UESTC, majoring in SoftWare Engineering, expected to graduate in 2026.
-- Currently exploring technologies related to game engine development and game client development .
-- have internship experience in Tencent Tianmei Studio
+	Welcome To Crydust's Blog!!!
 
 === "中文"
 
-- 电子科技大学软件工程专业，预计 2026 年毕业
-- 正在学习游戏引擎与游戏客户端开发相关技术
-- 已有腾讯天美工作室实习经历
+	欢迎来到晶尘的 Blog!!!
+# Intro
+=== "English"
+
+    - An undergraduate student at UESTC, majoring in SoftWare Engineering, expected to graduate in 2026.
+    - Currently exploring technologies related to game engine development and game client development .
+    - have internship experience in Tencent Tianmei Studio
+    
+=== "中文"
+
+    - 电子科技大学软件工程专业，预计 2026 年毕业
+    - 正在学习游戏引擎与游戏客户端开发相关技术
+    - 已有腾讯天美工作室实习经历
+
 
 ## Recent Notes
 
@@ -34,6 +51,30 @@ Welcome To Crydust's Blog!!!
 - [:fontawesome-solid-blog: Note](笔记主页.md)
 
 </div>
+
+
+  
+
+## Projects
+
+  
+
+=== "English"
+
+    - [CryDust Engine](https://github.com/JcMarical/MaricGameEngine){target="_blank"}: A game engine based on OpenGL, C++17, and .NET 9 for learning purposes.
+
+    -  [【2025 CUSGA】Light Edges](https://www.bilibili.com/video/BV1RGJgzXEQr/?vd_source=6244aa070a169733971e833c530f4296){target="_blank"}Based on the light and shadow of the puzzle game, players need to use heavy machinery, in the light and shadow of the road to find the real end!
+	    - First edition 【Light Edge】 (gameplay only, no art) won the second place in 2024 Perfect World MiniGame
+	    - First edition 【Light Edge】 (gameplay only, no art) won the 2024 Gigabit Game Competition finalist award (top 20)
+
+=== "中文"
+
+
+    - [March Engine](https://github.com/JcMarical/MaricGameEngine){target="_blank"}：基于 OpenGL、C++17 和 .NET 9 的游戏引擎，用于学习目的。
+  
+    - [光，影子，朝圣者](https://www.bilibili.com/video/BV1RGJgzXEQr/?vd_source=6244aa070a169733971e833c530f4296){target="_blank"}：基于光线与阴影制作的解谜游戏，玩家需要利用重重机关，在光与影的道路中找到真正的终点！
+	    - 初版【光缘】(仅玩法无美术)荣获2024完美世界MiniGame 第二名
+	    - 初版【光缘】(仅玩法无美术)荣获2024吉比特入围奖(前20)
 
 # 站点信息
 

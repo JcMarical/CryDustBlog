@@ -36,18 +36,7 @@ end
 
 从技术上讲，**Lua 语言中只有闭包没有函数。函数本身只是闭包的一种原型。** 尽管如此，只要不会引起棍淆，我们就仍将使用术语“函数”来指代闭包。
 
-![[Pasted image 20240809231917.png]]
 根据可见性规则，**局部变量 old Sin 只在这部分代码段中有效**。因此，只有新版本的函数 sin 才能访问原来的 sin 函数，其他部分的代码则访问不了。并将原来的版本保存为一个私有的变量。
-
-![[Pasted image 20240809233209.png]]
-
-# 十 模式匹配
-用的时候再查，反正记不住
-
-# 十二 日期和时间
-
-# 十三 位和字节
-用时再记，反正记不住
 
 # 十四 数据结构
 1.  稀疏矩阵(表的特点就决定了矩阵为稀疏矩阵)
@@ -88,7 +77,7 @@ end
 **原文件：**
 ```
 Donald E. Knuth, Lite ate og amming, CSL!, 1992
-Jon Bentley ，”。「 Prag amming Pearls,Addison-Wesley,1990
+Jon Bentley ，” Prag amming Pearls,Addison-Wesley,1990
 ```
 **Lua 构造器表示:**
 ```lua
@@ -147,26 +136,6 @@ dofile("data")
 for name in pairs(authors)do print(name) end
 ```
 
-## 2.序列化
-1.  type(o) == "number"
-```lua
-function serialize(o)
- if type(o) == "number" then
-     io.write(tostring(o))
- elseif type(o) == "string" then
-     io.write("[[",0,"]]")
- else other cases
- end
-end
-```
-2.  代码注入
-```lua
-varname = [[]]..os.excute('rm*')..[[]]
-```
-3.  解决方案：使用 string.format
----
-4.  保存不带循环的表：递归处理子子节点
-5.  保存带循环的表：引入名称，使用之前已被保存过的表作为键，表名为值
 
 # 十六  编译、执行和错误
 
@@ -234,7 +203,7 @@ n = assert(io.read("*n"),"invalid input")
 - debug.traceback：使用调用栈构造详细错误信息，**lua 独立解释器错误信息构造**就是用的这个
 
 # 十七 模块和包
-- 一个模块就可以看作一段代码，使用**require **进行加载，然后**创建并返回一个表**
+- 一个模块就可以看作一段代码，使用**require** 进行加载，然后 **创建并返回一个表**
 ```lua
 local m = require"math"
 print(m.sin(3.14))
@@ -340,4 +309,4 @@ return{
 ## 3.1 子模块和包
 - 如 mod.sub,不过 require 会把点转换成目录分隔符--斜杠或者反斜杠。
 - 没有的操作系统转换为下画线，如 a.b 转换成 a_b
-*
+

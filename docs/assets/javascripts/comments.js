@@ -6,16 +6,16 @@
 
     let s = document.createElement("script");
     s.setAttribute("src", "https://giscus.app/client.js");
-    s.setAttribute("data-repo", "stalomeow/note");
-    s.setAttribute("data-repo-id", "R_kgDOIiy-JQ");
+    s.setAttribute("data-repo", "JcMarical/CryDustBlog");
+    s.setAttribute("data-repo-id", "R_kgDOMkfjMw");
     s.setAttribute("data-category", "Comments");
-    s.setAttribute("data-category-id", "DIC_kwDOIiy-Jc4CS79f");
-    s.setAttribute("data-mapping", "pathname");
+    s.setAttribute("data-category-id", "DIC_kwDOMkfjM84CriDr");
+    s.setAttribute("data-mapping", "title");
     s.setAttribute("data-strict", "0");
     s.setAttribute("data-reactions-enabled", "1");
-    s.setAttribute("data-emit-metadata", "0");
+    s.setAttribute("data-emit-metadata", "1");
     s.setAttribute("data-input-position", "top");
-    s.setAttribute("data-theme", "transparent_dark");
+    s.setAttribute("data-theme", "preferred_color_scheme");
     s.setAttribute("data-lang", "en");
     s.setAttribute("data-loading", "lazy");
     s.setAttribute("crossorigin", "anonymous");

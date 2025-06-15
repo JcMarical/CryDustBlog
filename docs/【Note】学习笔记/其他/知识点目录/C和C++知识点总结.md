@@ -1,3 +1,11 @@
+---
+date: 2025-04-22T20:49:17
+publish: true
+comments: true
+permalink: aria2
+aliases:
+---
+	
 	随着知识点越来越多，记忆难免会混乱、遗忘，一个好的知识点总结能有效帮助回忆。
 
 

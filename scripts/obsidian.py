@@ -56,7 +56,8 @@ FOLDER_OBSIDIAN_VAULT = 'obsidian-vault'
 FOLDER_ATTACHMENT = 'attachments'
 FOLDER_BLACKLIST = {
     '临时',
-    'templates'
+    'templates',
+    '【Note】学习笔记'
 }
 
 wiki_link_name_map: dict[str, File] = {}         # key 是文件名，有扩展名
