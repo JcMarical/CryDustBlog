@@ -139,7 +139,7 @@ hooks:
   # - scripts/fancybox.py
   # - scripts/copyright.py
   - scripts/links.py
-  - scripts/rss.py
+  # - scripts/rss.py 暂时不知道有什么用
 
 watch:
   - overrides
