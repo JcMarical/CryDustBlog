@@ -89,7 +89,7 @@ markdown_extensions:
   - md_in_html
   - footnotes
   - admonition
-  - callouts
+  # - callouts  这个上传有bug，不知道为什么
   - pymdownx.details
   - pymdownx.critic
   - pymdownx.caret
