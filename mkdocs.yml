@@ -1,6 +1,9 @@
 site_name: 晶尘CryDust's Blog
+site_url: https://www.crydust.top/
+site_description: CryDust's Blog
+repo_name: JcMarical/CryDustBlog
 repo_url: https://github.com/JcMarical/CryDustBlog #（请修改为你自己的仓库地址）
-edit_uri: edit/main/docs/
+edit_uri: blob/main/docs/ #do not use "edit/main/docs/" 为什莫？
 
 # nav:
 #   - Home: index.md
@@ -16,7 +19,7 @@ theme:
   # 字体
   font:
     text: "'LXGW WenKai Screen', 'Noto Sans SC', 'Microsoft YaHei', sans-serif"
-    code: "'JetBrains Mono', 'LXGW WenKai Screen', 'Noto Sans SC', 'Microsoft YaHei', sans-serif"
+    code: "'Cascadia Mono', 'LXGW WenKai Screen', 'Noto Sans SC', 'Microsoft YaHei', sans-serif"
 
   #图标
   icon:
@@ -59,9 +62,11 @@ theme:
     - content.code.copy
     # - content.code.annotate
     - content.action.edit
+    - content.tabs.link
 
     - navigation.instant
     - navigation.instant.progress
+    - navigation.instant.preview
     # - navigation.tabs   #导航选项卡
     - navigation.top  #顶部显示导航
     - navigation.path #导航栏中显示当前也没路径
@@ -80,6 +85,20 @@ theme:
 
 
 # Extensions
+
+extra_css:
+  - assets/webfonts/Cascadia Mono/font.css
+  - assets/webfonts/LXGW WenKai Screen/font.css
+  - assets/stylesheets/theme.css
+  - assets/stylesheets/feature.css
+  - assets/stylesheets/temp-patch.css
+
+extra_javascript:
+  - assets/javascripts/mathjax.js
+  - assets/javascripts/comments.js
+  - assets/javascripts/links.js
+  - https://cdn.jsdelivr.net/npm/mathjax@4.0.0-beta.7/tex-chtml.js
+
 
 # Markdown扩展
 markdown_extensions:
@@ -119,7 +138,7 @@ markdown_extensions:
       # 生成可读的 unicode slug
       # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#+toc.slugify
       slugify: !!python/object/apply:pymdownx.slugs.slugify {}
-  - toc:
+  - toc:  #目录
       # https://python-markdown.github.io/extensions/toc/
       permalink: true
       separator: "-"
