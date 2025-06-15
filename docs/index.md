@@ -31,7 +31,7 @@ Welcome To Crydust's Blog!!!
 
 - [:fontawesome-solid-blog: Blog](blog/index.md)
 
-- [:fontawesome-solid-blog: Note](笔记/笔记主页.md)
+- [:fontawesome-solid-blog: Note](笔记主页.md)
 
 </div>
 
