@@ -2,10 +2,10 @@ site_name: 晶尘CryDust's Blog
 repo_url: https://github.com/JcMarical/CryDustBlog #（请修改为你自己的仓库地址）
 edit_uri: edit/main/docs/
 
-nav:
-  - Home: index.md
-  - Blog:
-    - blog/index.md
+# nav:
+#   - Home: index.md
+#   - Blog:
+#     - blog/index.md
 
 theme:
   name: material
@@ -62,16 +62,16 @@ theme:
 
     - navigation.instant
     - navigation.instant.progress
-    - navigation.tabs   #导航选项卡
+    # - navigation.tabs   #导航选项卡
     - navigation.top  #顶部显示导航
     - navigation.path #导航栏中显示当前也没路径
-    - navigation.indexes
+    # - navigation.indexes
     # - navigation.tracking
     # - navigation.footer
-    # - navigation.sections
+    - navigation.sections
 
-    # toc.follow
-    - toc.integrate #大纲展示
+    - toc.follow
+    # - toc.integrate #大纲展示
 
     #搜索
     - search.suggest 
@@ -89,7 +89,7 @@ markdown_extensions:
   - md_in_html
   - footnotes
   - admonition
-  #- callouts
+  - callouts
   - pymdownx.details
   - pymdownx.critic
   - pymdownx.caret
@@ -116,6 +116,9 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true 
+      # 生成可读的 unicode slug
+      # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#+toc.slugify
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {}
   - toc:
       # https://python-markdown.github.io/extensions/toc/
       permalink: true
@@ -129,36 +132,18 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+
+hooks:
+  - scripts/dev.py
+  # - scripts/obsidian.py
+  # - scripts/fancybox.py
+  # - scripts/copyright.py
+  - scripts/links.py
+  - scripts/rss.py
+
+watch:
+  - overrides
+
 plugins:
   - search
-  - roamlinks 
-  - blog:
-      blog_dir: .
-      enabled: true
-      blog_toc: true
-      authors_profiles: true
-      post_dir: docs/
-      post_date_format: yyyy-MM-dd
-      post_url_format: "posts/{slug}"
-      post_excerpt: required
-      post_excerpt_max_authors: 0
-      post_readtime: true
-      post_readtime_words_per_minute: 180
-      archive: true
-      archive_date_format: yyyy 年 MM 月
-      archive_url_date_format: yyyy/MM
-      archive_toc: true
-      categories: true
-      categories_url_format: "categories/{slug}"
-      categories_toc: true
-      categories_allowed:
-        - Game
-        - Cpp
-      authors: false
-      pagination: true
-      pagination_per_page: 10
-      pagination_format: "~2~"
-      pagination_if_single_page: true
-      pagination_keep_content: true
-  - meta
   - tags

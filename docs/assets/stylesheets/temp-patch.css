@@ -1,0 +1,15 @@
+/**
+ * 临时修复样式
+ */
+
+
+/* 禁止 Markdown 内容溢出 */
+/* TODO 目前会导致左侧边栏无法跟随窗口移动 */
+/* .md-content {
+    overflow: hidden;
+} */
+
+/* 让 emoji 看起来居中 */
+.md-typeset .emojione, .md-typeset .gemoji, .md-typeset .twemoji {
+    vertical-align: text-bottom !important;
+}

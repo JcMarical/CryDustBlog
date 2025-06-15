@@ -1,9 +1,28 @@
 # 主页
-欢迎来到晶尘的 Blog(*^▽^*)~
+Welcome To Crydust's Blog!!!
 
-本人目前为电子科技大学 2026 届在读学生一枚，热爱图形学与游戏开发，目前已有腾讯天美工作室实习经历。
+欢迎来到晶尘的 Blog!!!
+# Intro
+=== "English"
 
-如果我的博客对你有帮助的话，欢迎收藏~
+- An undergraduate student at UESTC, majoring in SoftWare Engineering, expected to graduate in 2026.
+- Currently exploring technologies related to game engine development and game client development .
+- have internship experience in Tencent Tianmei Studio
+
+=== "中文"
+
+- 电子科技大学软件工程专业，预计 2026 年毕业
+- 正在学习游戏引擎与游戏客户端开发相关技术
+- 已有腾讯天美工作室实习经历
+
+## Recent Notes
+
+=== "English"
+
+=== "中文"
+
+<!-- RECENT NOTES -->
+
 
 # 内容索引
 <div class="grid cards" markdown>

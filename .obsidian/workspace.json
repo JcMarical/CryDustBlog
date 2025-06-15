@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/blog/posts/Unity客户端学习路线（初版）.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unity客户端学习路线（初版）"
+              "title": "index"
             }
           },
           {
@@ -204,7 +204,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:-游戏开发",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -225,8 +225,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -319,14 +318,32 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cd28554163d63caa",
+  "active": "6ca6c874dcfde539",
   "lastOpenFiles": [
-    "docs/blog/新建 文本文档.txt",
-    "docs/blog/posts/Unity的四种批处理方式（动态合批，静态合批，SRP Batcher和GPU Instance）.md",
+    "overrides/partials/comments.html",
+    "overrides/partials",
+    "scripts/__pycache__/obsidian.cpython-39.pyc",
+    "scripts/__pycache__/dev.cpython-39.pyc",
+    "scripts/__pycache__/rss.cpython-39.pyc",
+    "docs/assets/webfonts/LXGW WenKai Screen/fonts/LXGW_WenKai_Screen_96.woff2",
+    "docs/assets/webfonts/LXGW WenKai Screen/fonts/LXGW_WenKai_Screen_95.woff2",
+    "docs/assets/webfonts/LXGW WenKai Screen/fonts/LXGW_WenKai_Screen_94.woff2",
+    "docs/assets/webfonts/LXGW WenKai Screen/fonts/LXGW_WenKai_Screen_93.woff2",
+    "docs/assets/webfonts/LXGW WenKai Screen/fonts/LXGW_WenKai_Screen_92.woff2",
+    "docs/assets/webfonts/LXGW WenKai Screen/fonts/LXGW_WenKai_Screen_91.woff2",
+    "docs/assets/projects/sr-shader-en.png",
+    "docs/assets/projects/sr-shader-en-thumbnail.png",
+    "docs/assets/projects/sr-shader-cn.png",
+    "docs/assets/projects/sr-shader-cn-thumbnail.png",
+    "docs/assets/projects/march-engine.png",
+    "docs/assets/projects/march-engine-thumbnail.png",
+    "docs/assets/projects/dream-ticker.png",
+    "docs/blog/Unity客户端学习路线（初版）.md",
     "docs/blog/posts/Unity客户端学习路线（初版）.md",
-    "docs/blog/posts/（帧同步）定点数运算数学库制作.md",
-    "docs/blog/posts/（帧同步）MOBA确定性物理碰撞计算库.md",
+    "docs/blog/posts/Unity的四种批处理方式（动态合批，静态合批，SRP Batcher和GPU Instance）.md",
     "docs/blog/posts/Unity&xLua热更新入门(一) Lua语言快速介绍.md",
+    "docs/blog/posts/（帧同步）MOBA确定性物理碰撞计算库.md",
+    "docs/blog/posts/（帧同步）定点数运算数学库制作.md",
     "docs/blog/index.md",
     "docs/笔记/其他/知识点目录/Unity.md",
     "docs/笔记/其他/知识点目录/C和C++知识点总结.md",
@@ -340,7 +357,6 @@
     "docs/笔记/其他/知识点目录/快速过简历.md",
     "docs/笔记/其他/知识点目录/技术栈.md",
     "docs/笔记/其他/知识点目录/项目面试逐字稿.md",
-    "docs/blog/Unity客户端学习路线（初版）.md",
     "docs/blog/（帧同步）MOBA确定性物理碰撞计算库.md",
     "docs/blog/Unity客户端学习路线（补充）.md",
     "docs/blog/未命名.md",
@@ -350,23 +366,6 @@
     "images/Pasted image 20250608175731.png",
     "images/Pasted image 20250608175652.png",
     "docs/blog/（帧同步）定点数运算数学库制作.md",
-    "images/Pasted image 20250604202723.png",
-    "images/2C9100C5.png",
-    "images/Pasted image 20250601043542.png",
-    "images/Pasted image 20250601041746.png",
-    "images/Pasted image 20250601041536.png",
-    "images/Pasted image 20250601040602.png",
-    "images/Pasted image 20250601035415.png",
-    "docs/笔记/游戏开发/帧同步/更加完整的帧同步框架",
-    "docs/笔记/游戏开发/帧同步/简易帧同步框架",
-    "docs/笔记/游戏开发/未命名 1",
-    "docs/笔记/网络/Games104/未命名",
-    "docs/笔记/网络/Games104网络架构",
-    "docs/笔记/算法与数据结构/labuladong",
-    "docs/笔记/工作与求职/面经/未命名",
-    "docs/笔记/网络/网络学习",
-    "docs/笔记/游戏开发/游戏设想--《神域》",
-    "未命名.canvas",
-    "docs/笔记/图形学/渲染/全局光照/DDGI实现/源码梳理"
+    "未命名.canvas"
   ]
 }
