@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/【Note】学习笔记/游戏开发/帧同步/更加完整的帧同步框架/HOK帧同步.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "HOK帧同步"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/笔记/算法与数据结构/LEETCODE HOT100 速通 Any%.md",
+                "file": "docs/obsidian-vault/【Blog】博客文章/posts/游戏客户端进阶/帧同步/帧同步--BUFF功能实现.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LEETCODE HOT100 速通 Any%"
+              "title": "帧同步--BUFF功能实现"
             }
           },
           {
@@ -143,7 +143,8 @@
               "title": "DDGI 实现记录（六）探针分类"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +176,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "帧同步",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -289,39 +290,44 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6ca6c874dcfde539",
+  "active": "7d51ef7d129e0ab6",
   "lastOpenFiles": [
-    "docs/obsidian-vault/【Blog】博客文章/Unity客户端学习路线（初版）.md",
+    "docs/obsidian-vault/【Blog】博客文章/posts/游戏客户端进阶/帧同步/帧同步--技能系统实现.md",
+    "docs/obsidian-vault/【Blog】博客文章/posts/游戏客户端进阶/帧同步/帧同步--BUFF功能实现.md",
+    "docs/obsidian-vault/【Blog】博客文章/posts/游戏客户端进阶/帧同步/（帧同步）定点数运算数学库制作.md",
+    "docs/【Note】学习笔记/游戏开发/帧同步/更加完整的帧同步框架/HOK帧同步.md",
+    "docs/obsidian-vault/【Blog】博客文章/posts/游戏客户端进阶/帧同步/（帧同步）MOBA确定性物理碰撞计算库.md",
+    "docs/obsidian-vault/【Blog】博客文章/posts/Unity的四种批处理方式（动态合批，静态合批，SRP Batcher和GPU Instance）.md",
+    "docs/obsidian-vault/【Blog】博客文章/posts/游戏客户端基础/Unity&xLua热更新入门(一) Lua语言快速介绍.md",
+    "docs/obsidian-vault/templates/Note Header.md",
+    "docs/obsidian-vault/templates/Video Container.md",
+    "docs/obsidian-vault/templates",
+    "docs/templates/Video Container.md",
+    "docs/templates/Note Header.md",
+    "docs/templates",
+    "docs/obsidian-vault/【Blog】博客文章/posts/游戏客户端进阶/帧同步",
+    "docs/obsidian-vault/【Blog】博客文章/posts/游戏客户端基础/Unity客户端学习路线（初版）.md",
+    "docs/obsidian-vault/【Blog】博客文章/posts/游戏客户端进阶",
+    "docs/obsidian-vault/【Blog】博客文章/posts/游戏客户端基础",
+    "docs/obsidian-vault/【Blog】博客文章/posts/Unity客户端学习路线（初版）.md",
+    "docs/obsidian-vault/【Blog】博客文章/index.md",
+    "docs/index.md",
     "docs/【Note】学习笔记/其他/Lua/《{Programming in Lua》/第二部分《Programming in Lua》编程实操.md",
     "docs/【Note】学习笔记/工作与求职/面经/灵犀二面.md",
     "docs/【Note】学习笔记/工作与求职/面经/快守笔试.md",
     "docs/【Note】学习笔记/工作与求职/面经/4399一面.md",
     "docs/【Note】学习笔记/工作与求职/面经/4399 笔试.md",
-    "docs/obsidian-vault/【Blog】博客文章/posts/（帧同步）MOBA确定性物理碰撞计算库.md",
-    "docs/obsidian-vault/【Blog】博客文章/posts/（帧同步）定点数运算数学库制作.md",
-    "docs/obsidian-vault/【Blog】博客文章/index.md",
     "docs/【Note】学习笔记/其他/知识点目录/C和C++知识点总结.md",
     "docs/【Note】学习笔记/算法与数据结构/未命名.md",
     "docs/【Note】学习笔记/算法与数据结构/每日一题打卡.md",
     "docs/【Note】学习笔记/算法与数据结构/回溯与DFS算法.md",
     "docs/【Note】学习笔记/其他/知识点目录/比较阴的题型.md",
     "docs/【Note】学习笔记/其他/知识点目录/算法总览.md",
-    "docs/【Note】学习笔记/其他/知识点目录/项目面试逐字稿.md",
-    "docs/【Note】学习笔记/其他/知识点目录/知识点目录.md",
-    "docs/【Note】学习笔记/其他/知识点目录/设计模式.md",
-    "docs/【Note】学习笔记/其他/知识点目录/快速过简历.md",
-    "docs/【Note】学习笔记/其他/关于我/游戏项目.md",
-    "docs/index.md",
     "overrides/partials/comments.html",
     "overrides/partials",
     "scripts/__pycache__/obsidian.cpython-39.pyc",
     "scripts/__pycache__/dev.cpython-39.pyc",
     "scripts/__pycache__/rss.cpython-39.pyc",
-    "docs/assets/webfonts/LXGW WenKai Screen/fonts/LXGW_WenKai_Screen_96.woff2",
-    "docs/assets/webfonts/LXGW WenKai Screen/fonts/LXGW_WenKai_Screen_95.woff2",
-    "docs/assets/webfonts/LXGW WenKai Screen/fonts/LXGW_WenKai_Screen_94.woff2",
-    "docs/assets/webfonts/LXGW WenKai Screen/fonts/LXGW_WenKai_Screen_93.woff2",
-    "docs/assets/webfonts/LXGW WenKai Screen/fonts/LXGW_WenKai_Screen_92.woff2",
     "docs/assets/projects/sr-shader-en.png",
     "docs/assets/projects/sr-shader-en-thumbnail.png",
     "docs/assets/projects/sr-shader-cn.png",
@@ -329,11 +335,6 @@
     "docs/assets/projects/march-engine.png",
     "docs/assets/projects/march-engine-thumbnail.png",
     "docs/assets/projects/dream-ticker.png",
-    "docs/blog/Unity客户端学习路线（初版）.md",
-    "docs/blog/posts/Unity客户端学习路线（初版）.md",
-    "docs/blog/posts/Unity的四种批处理方式（动态合批，静态合批，SRP Batcher和GPU Instance）.md",
-    "docs/blog/posts/Unity&xLua热更新入门(一) Lua语言快速介绍.md",
-    "docs/blog/posts/（帧同步）MOBA确定性物理碰撞计算库.md",
     "images/Pasted image 20250608180545.png",
     "images/Pasted image 20250608175731.png",
     "images/Pasted image 20250608175652.png",
