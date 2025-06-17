@@ -61,20 +61,18 @@ comments: true
 
 === "English"
 
-    - [CryDust Engine](https://github.com/JcMarical/MaricGameEngine){target="_blank"}: A game engine based on OpenGL, C++17, and .NET 9 for learning purposes.
+	   - [CryDust Engine](https://github.com/JcMarical/MaricGameEngine){target="_blank"}: A game engine based on OpenGL, C++17, and .NET 9 for learning purposes.
 
-    -  [【2025 CUSGA】Light Edges](https://www.bilibili.com/video/BV1RGJgzXEQr/?vd_source=6244aa070a169733971e833c530f4296){target="_blank"}Based on the light and shadow of the puzzle game, players need to use heavy machinery, in the light and shadow of the road to find the real end!
-	    - First edition 【Light Edge】 (gameplay only, no art) won the second place in 2024 Perfect World MiniGame
-	    - First edition 【Light Edge】 (gameplay only, no art) won the 2024 Gigabit Game Competition finalist award (top 20)
+	    -  [【2025 CUSGA】Light Edges](https://www.bilibili.com/video/BV1RGJgzXEQr/?vd_source=6244aa070a169733971e833c530f4296){target="_blank"}: Based on the light and shadow of the puzzle game, players need to use heavy machinery, in the light and shadow of the road to find the real end!
+		    - First edition 【Light Edge】 (gameplay only, no art) won the second place in 2024 Perfect World MiniGame
+		    - First edition 【Light Edge】 (gameplay only, no art) won the 2024 Gigabit Game Competition finalist award (top 20)
 
 === "中文"
 
-
-    - [March Engine](https://github.com/JcMarical/MaricGameEngine){target="_blank"}：基于 OpenGL、C++17 和 .NET 9 的游戏引擎，用于学习目的。
-  
-    - [光，影子，朝圣者](https://www.bilibili.com/video/BV1RGJgzXEQr/?vd_source=6244aa070a169733971e833c530f4296){target="_blank"}：基于光线与阴影制作的解谜游戏，玩家需要利用重重机关，在光与影的道路中找到真正的终点！
-	    - 初版【光缘】(仅玩法无美术)荣获2024完美世界MiniGame 第二名
-	    - 初版【光缘】(仅玩法无美术)荣获2024吉比特入围奖(前20)
+	- [CryDust Engine](https://github.com/JcMarical/MaricGameEngine){target="_blank"}：基于 OpenGL、C++17 和 .NET 9 的游戏引擎，用于学习目的。
+	- [【2025 CUSGA】光，影子，朝圣者](https://www.bilibili.com/video/BV1RGJgzXEQr/?vd_source=6244aa070a169733971e833c530f4296){target="_blank"}：基于光线与阴影制作的解谜游戏，玩家需要利用重重机关，在光与影的道路中找到真正的终点！
+		- 初版【光缘】(仅玩法无美术)荣获2024完美世界MiniGame 第二名
+		- 初版【光缘】(仅玩法无美术)荣获2024吉比特入围奖(前20)
 
 # 站点信息
 
