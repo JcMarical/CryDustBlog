@@ -134,7 +134,6 @@ mytable = nil
 lua循环的思想还是和正常代码类似，不过for循环有不少细节值得注意一下
 
 - while循环：
-
 ```Lua
 while( true )
 do
