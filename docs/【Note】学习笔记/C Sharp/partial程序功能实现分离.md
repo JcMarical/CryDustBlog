@@ -1,3 +1,4 @@
+# partial: 程序功能实现分离
 平时都没怎么用到，项目中为了即使不生成序列化代码也不会报错，不影响正常的开发流程，使用partial分隔代码
 ```c#
 public partial class CameraRenderer

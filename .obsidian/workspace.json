@@ -1,163 +1,56 @@
 {
   "main": {
-    "id": "33f0f1dcdd659575",
+    "id": "b3682b0fee12a917",
     "type": "split",
     "children": [
       {
-        "id": "a8fbff09ca9e4d36",
+        "id": "012c1daf2649ddc6",
         "type": "tabs",
         "children": [
           {
-            "id": "6ca6c874dcfde539",
+            "id": "1656bbf1ff446a68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/【Note】学习笔记/游戏开发/编辑器拓展/游戏工具与编辑器/技能编辑器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "技能编辑器"
             }
           },
           {
-            "id": "7d51ef7d129e0ab6",
+            "id": "8432916e1631b63f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/帧同步/帧同步--技能系统实现.md",
+                "file": "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/帧同步/（帧同步）MOBA确定性物理碰撞计算库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "帧同步--技能系统实现"
-            }
-          },
-          {
-            "id": "e676087712001d79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/【Note】学习笔记/游戏开发/帧同步/更加完整的帧同步框架/HOK帧同步.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HOK帧同步"
-            }
-          },
-          {
-            "id": "45158ade5770dbfd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/笔记/其他/知识点目录/算法总览.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "算法总览"
-            }
-          },
-          {
-            "id": "b5934da2c58ddfd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/笔记/其他/知识点目录/C和C++知识点总结.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C和C++知识点总结"
-            }
-          },
-          {
-            "id": "969dbb38dc4d3efa",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
-          },
-          {
-            "id": "8133bcdfd996c5b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/笔记/笔记主页.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "笔记主页"
-            }
-          },
-          {
-            "id": "23222f89712e34d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/笔记/图形学/⭐CryDust自制游戏小引擎/87.唯一标识UUID（Universal unique ID）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "87.唯一标识UUID（Universal unique ID）"
-            }
-          },
-          {
-            "id": "01a421143f36c45f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/笔记/图形学/⭐CryDust自制游戏小引擎/77.资源浏览面板显示文件.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "77.资源浏览面板显示文件"
-            }
-          },
-          {
-            "id": "4c21991ccd9bac35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/笔记/图形学/渲染/全局光照/DDGI实现/DDGI 实现记录（六）探针分类.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DDGI 实现记录（六）探针分类"
+              "title": "（帧同步）MOBA确定性物理碰撞计算库"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b79722469970a238",
+    "id": "d7273e2ff775ce22",
     "type": "split",
     "children": [
       {
-        "id": "4c8c2a81e54cbc75",
+        "id": "088c36cbb94bc2b4",
         "type": "tabs",
         "children": [
           {
-            "id": "144b42f97860fc8a",
+            "id": "a6e490ec02fbee4e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -170,15 +63,15 @@
             }
           },
           {
-            "id": "cd28554163d63caa",
+            "id": "f94f803135a8f9ef",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "帧同步",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -187,7 +80,7 @@
             }
           },
           {
-            "id": "9ee73c351b117851",
+            "id": "700a487b800372f3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -200,23 +93,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.504997253418
+    "width": 300
   },
   "right": {
-    "id": "6293dda7084be62a",
+    "id": "03ea671b5434489d",
     "type": "split",
     "children": [
       {
-        "id": "e2a8fda94697fdef",
+        "id": "d93a22cd6d593476",
         "type": "tabs",
         "children": [
           {
-            "id": "be4a74111698f84d",
+            "id": "29a3392ef9a9c0b3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲Shader源码分析--输入.md",
+                "file": "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/网络同步：状态帧同步方案总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,57 +119,58 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "卡渲Shader源码分析--输入 的反向链接列表"
+              "title": "网络同步：状态帧同步方案总结 的反向链接列表"
             }
           },
           {
-            "id": "a75fcab3b8c51b54",
+            "id": "c59bac25d622b3f5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/图形学/渲染/仿原神渲染记录(URP HLSL)/卡渲Shader源码分析--输入.md",
+                "file": "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/网络同步：状态帧同步方案总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "卡渲Shader源码分析--输入 的出链列表"
+              "title": "网络同步：状态帧同步方案总结 的出链列表"
             }
           },
           {
-            "id": "db8431d5db846591",
+            "id": "f191fc65868823a1",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
             }
           },
           {
-            "id": "b19ae81d0ac7c1d4",
+            "id": "fa8ba36669660787",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/笔记/其他/知识点目录/Unity.md",
+                "file": "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/网络同步：状态帧同步方案总结.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Unity 的大纲"
+              "title": "网络同步：状态帧同步方案总结 的大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -289,54 +183,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6ca6c874dcfde539",
+  "active": "a6e490ec02fbee4e",
   "lastOpenFiles": [
-    "images/Pasted image 20250617215753.png",
-    "images/Pasted image 20250617214634.png",
-    "images/wallhaven-exk1m8.jpg",
-    "docs/【Note】学习笔记/工作与求职/大佬社招问题搜集/高级客户端开发.md",
-    "docs/【Note】学习笔记/其他/学习计划.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/米哈游笔试.md",
-    "docs/【Note】学习笔记/工作与求职/大佬社招问题搜集",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/某上海厂引擎工具一面.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/某上海厂笔试.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/4399 笔试.md",
-    "docs/obsidian-vault/【Blog】博客文章/index.md",
+    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/帧同步/帧同步--技能系统实现.md",
     "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/帧同步/帧同步--BUFF功能实现.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/字节 一面.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/字节二面.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/游卡 笔试.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/网易雷火 一面（感觉是笔试）.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/网易互娱笔试.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/网易互娱 引擎开发二面.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/网易互娱 引擎开发.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/腾讯引擎 一面.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/搜狐畅游-引擎开发笔试.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/蛇夫座3A客户端一面.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/朋友的面经.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/灵犀互娱笔试.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/灵犀二面.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/快守笔试.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/快手一面.md",
-    "docs/【Note】学习笔记/工作与求职/面经/2025春/4399一面.md",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端基础/Unity客户端学习路线（初版）.md",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/设计模式与架构",
-    "docs/obsidian-vault/templates",
-    "docs/templates",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/帧同步",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端基础",
-    "overrides/partials/comments.html",
-    "overrides/partials",
-    "scripts/__pycache__/obsidian.cpython-39.pyc",
-    "docs/assets/projects/sr-shader-en.png",
-    "docs/assets/projects/sr-shader-en-thumbnail.png",
-    "docs/assets/projects/sr-shader-cn.png",
-    "docs/assets/projects/sr-shader-cn-thumbnail.png",
-    "docs/assets/projects/march-engine.png",
-    "docs/assets/projects/march-engine-thumbnail.png",
-    "docs/assets/projects/dream-ticker.png",
-    "images/Pasted image 20250608180545.png",
-    "未命名.canvas"
+    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/帧同步/帧同步--Bullet弹道技能实现.md",
+    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/场景、快照序列化方案.md",
+    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/网络同步：状态帧同步方案总结.md",
+    "docs/index.md",
+    "docs/【Note】学习笔记/笔记主页.md",
+    "docs/obsidian-vault/【Blog】博客文章/index.md",
+    "docs/【Note】学习笔记/游戏开发/编辑器拓展/游戏工具与编辑器/技能编辑器.md",
+    "images/Pasted image 20250623021309.png",
+    "images/Pasted image 20250623014626.png",
+    "未命名 2.md",
+    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/设计模式与架构/【游戏开发】池化技术探讨：对象池、缓存池、内存池的区别.md",
+    "images/Pasted image 20250622213150.png"
   ]
 }

@@ -64,7 +64,7 @@ comments: true
 	- A MOBA-style frame-synchronized online multiplayer game - 【Honor of Kings】: This Game has currently completed the implementation of the fixed-point number physical collision library, the basic matching system, a complete frame synchronization network communication framework, the separation of the client's logic layer and presentation layer, as well as the skill and BUFF system based on configuration.
 		- Project progress: All the skills of the melee hero - Arthur have been fully implemented. The looped IP for local use has successfully enabled communication between the server and the client, and 1v1 battles have been conducted.
 		- Project future plan: Complete the implementation of all skills of the remote hero - Hou Yi, and purchase servers to verify the actual online battles.
-	![image-20250617215805644](https://crydustblog.oss-cn-chengdu.aliyuncs.com/image-20250617215805644.png)
+	![image-20250623142514254](https://crydustblog.oss-cn-chengdu.aliyuncs.com/image-20250623142514254.png)
 	
 	- [【CryDust Engine】](https://github.com/JcMarical/MaricGameEngine){target="_blank"}: A game engine based on OpenGL, C++17, and .NET 9 for learning purposes.
 	-  [【2025 CUSGA】Light Edges](https://www.bilibili.com/video/BV1RGJgzXEQr/?vd_source=6244aa070a169733971e833c530f4296){target="_blank"}: Based on the light and shadow of the puzzle game, players need to use heavy machinery, in the light and shadow of the road to find the real end!
@@ -77,10 +77,10 @@ comments: true
 === "中文"
 
 	- 仿MOBA帧同步联网对战游戏-【王者荣耀】: 仿照王者荣耀游戏实现的MOBA帧同步项目，目前已完成定点数物理碰撞库、基础匹配系统实现、完整的帧同步网络通信框架、客户端逻辑层与表现层分离以及基于配置的技能与BUFF系统。
-		- 项目进度：已完成近战英雄--亚瑟的全部技能实现，并在本机使用回环IP成功实现服务器与客户端通信，进行1v1对战。
-		- 项目未来计划：完善远程英雄--后羿的全部技能实现，购买服务器验证真正的联网对战。
-	![image-20250617215805644](https://crydustblog.oss-cn-chengdu.aliyuncs.com/image-20250617215805644.png)
-
+		- 项目进度：已完成近战英雄和远程英雄的全部技能实现，并在本机使用回环IP成功实现服务器与客户端通信，进行1v1、3v3和5v5对战。
+		- 项目未来计划：完善小兵和防御塔实现，购买服务器验证真正的联网对战。
+	![image-20250623142514254](https://crydustblog.oss-cn-chengdu.aliyuncs.com/image-20250623142514254.png)
+	
 	- [CryDust Engine](https://github.com/JcMarical/MaricGameEngine){target="_blank"}：基于 OpenGL、C++17 和 .NET 9 的游戏引擎，用于学习目的。
 	- [【2025 CUSGA】光，影子，朝圣者](https://www.bilibili.com/video/BV1RGJgzXEQr/?vd_source=6244aa070a169733971e833c530f4296){target="_blank"}：基于光线与阴影制作的解谜游戏，玩家需要利用重重机关，在光与影的道路中找到真正的终点！
 		- 初版【光缘】(仅玩法无美术)荣获2024完美世界MiniGame 第二名
@@ -89,7 +89,7 @@ comments: true
 	
 	- [横版动作冒险游戏《归墟起源》](https://www.bilibili.com/video/BV1KJT2zrEBE/?vd_source=6244aa070a169733971e833c530f4296#reply263924791265)作为唯一程序，兼职Shader编写和动效制作，花了半年功夫做出来的横版动作战斗游戏!!! 超爽战斗体验，30多种逐帧动画打造的战特玩家战斗体验，内含解谜、剧情多种玩法。赶快来收集晶石，拯救这个快要变成废墟的国家吧!!!
 	![image-20250617213320325](https://crydustblog.oss-cn-chengdu.aliyuncs.com/image-20250617213320325.png)
-	
+
 
 
 

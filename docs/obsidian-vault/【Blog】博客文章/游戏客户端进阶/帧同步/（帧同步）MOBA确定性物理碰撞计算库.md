@@ -2,7 +2,7 @@
 date: 2025-06-12T23:13:13
 publish: true
 comments: true
-permalink: LockStep Physics
+permalink: LockStepPhysics
 aliases:
 ---
 
