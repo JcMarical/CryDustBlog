@@ -292,3 +292,44 @@ PlatformUtils：平台工具，基类，具体交给平台实现
 	- Vector2：
 	- Vector3
 	- Vector4
+
+# 编辑器层
+- Script文件夹：脚本程序集文件，分DEBUG，Dist，Release
+- SandboxProject沙盒项目：
+	- Assets文件夹，类似Unity
+		- Scene
+		- Scripts
+- src--一些C++写的界面基础
+	- 记录场景上下文，选择的组件
+	- SceneHierachyPanel层次结构面板初始化
+		- 设置上下文
+		- Imgui渲染：
+		- 当前选择的物体
+		- **绘制实体节点**：
+		- 绘制组件：利用模版，找到对应的组件展示逻辑
+			- Transform：三个维度分别绘制
+	- ContentBrowser内容浏览器
+		- 记录基础路径、当前路径、路径图标和文件图表等。只需提供绘制函数
+	- CryDustEditorApp编辑器应用程序：加层级，设置应用描述符，结束
+	- EditorLayer（核心中的核心）
+		- 初始化：相机和矩形颜色，字体设置
+		- 初始化纹理、帧缓冲描述符等一系列着色器资源
+		- 更新：
+			- 绑定帧缓冲：即场景显示
+			- 设置渲染指令：比如清屏
+			- 三种场景状态生命周期更新：Edit、Play、Simulate
+			- **鼠标拾取**：获取鼠标位置，计算出纹理坐标，读取像素数据ID，根据id判断实体。
+			- OnOverlayRender
+			- 解绑帧缓冲
+		- ImGuiRenderer：
+			- dockspace
+			- 文件栏：打开项目、保存场景、重载程序集等
+			- Settings：
+			- 控制场景状态
+		- 事件OnEvent：主要就是按键问题
+		- OnOverlayRender：
+			- 根据场景状态选用不同相机
+			- 碰撞体绘制：拿到Transform组件和碰撞组件信息进行绘制
+			- 选定时轮廓渲染：绘制一个线框矩形
+		- 项目新建：构造创建上下文
+		- 项目打开：从路径加载，生成脚本引擎，获取初始场景并打开
