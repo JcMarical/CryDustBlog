@@ -78,7 +78,8 @@ comments: true
 		- 项目进度：已完成近战英雄和远程英雄的全部技能实现，成功实现服务器与客户端通信，能够远程进行1v1、3v3和5v5对战并确保同步。
 		- 项目未来计划：完善碰撞库，尝试3D格斗游戏开发
 	![img](https://crydustblog.oss-cn-chengdu.aliyuncs.com/9435501559ab4c60c8ce49be9741a89f.jpeg)
-	
+	- [DDGI复刻]根据需要适应动态物体光照变化的需求，在Unity URP管线上结合Shader、ComputeShader和Raytrace Shader实现了DDGI（动态漫反射全局光照）算法。
+	![image-20250728043443508](https://crydustblog.oss-cn-chengdu.aliyuncs.com/image-20250728043443508.png)
 	- [CryDust Engine](https://github.com/JcMarical/MaricGameEngine){target="_blank"}：基于 OpenGL、C++17 和 .NET 9 的游戏引擎，用于学习目的。
 	- [【2025 CUSGA】光，影子，朝圣者](https://www.bilibili.com/video/BV1RGJgzXEQr/?vd_source=6244aa070a169733971e833c530f4296){target="_blank"}：基于光线与阴影制作的解谜游戏，玩家需要利用重重机关，在光与影的道路中找到真正的终点！
 		- 初版【光缘】(仅玩法无美术)荣获2024完美世界MiniGame 第二名
