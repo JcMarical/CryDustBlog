@@ -8,62 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1656bbf1ff446a68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
             "id": "977620c8c6df4b0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/【Note】学习笔记/其他/知识点目录/C和C++知识点总结.md",
+                "file": "docs/【Note】学习笔记/C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C和C++知识点总结"
+              "title": "《Effective C++》读书笔记 2-构造、析构、赋值运算"
             }
           },
           {
-            "id": "455a7173043e95a5",
+            "id": "fed33c5fdd74e39f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/【Note】学习笔记/计算机系统/03 内存管理.md",
+                "file": "docs/obsidian-vault/【Blog】博客文章/个人项目/BUILD流程分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 内存管理"
+              "title": "BUILD流程分析"
             }
           },
           {
-            "id": "2ea911ea7083d1a4",
+            "id": "e8d1e6fdffef557e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/【Note】学习笔记/算法与数据结构/leetcode hot100 三刷.md",
+                "file": "踩坑过程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "leetcode hot100 三刷"
+              "title": "踩坑过程"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "labuladong",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,12 +102,26 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "70eb4192a6250541",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/obsidian-vault/【Blog】博客文章/个人项目/编译链接，装载与库.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "编译链接，装载与库"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 522.5
   },
   "right": {
     "id": "03ea671b5434489d",
@@ -136,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/网络同步：状态帧同步方案总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "网络同步：状态帧同步方案总结 的反向链接列表"
             }
           },
           {
@@ -197,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,47 +211,47 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1656bbf1ff446a68",
+  "active": "a6e490ec02fbee4e",
   "lastOpenFiles": [
-    "docs/【Note】学习笔记/笔记主页.md",
-    "docs/【Note】学习笔记/其他/知识点目录/Unity.md",
-    "docs/【Note】学习笔记/其他/知识点目录/CryDust引擎开发.md",
-    "docs/【Note】学习笔记/算法与数据结构/leetcode hot100 三刷.md",
-    "docs/【Note】学习笔记/算法与数据结构/Leetcode hot 100 二刷.md",
-    "docs/【Note】学习笔记/算法与数据结构/labuladong 刷题记录.md",
-    "docs/【Note】学习笔记/C++/数据结构与STL/⭐⭐⭐十大排序及比较.md",
-    "docs/【Note】学习笔记/其他/知识点目录/C和C++知识点总结.md",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/帧同步/基于配置&逻辑-数据分离【技能系统】初总结.md",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/帧同步/帧同步--BUFF功能实现.md",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/设计模式与架构/【游戏开发】池化技术探讨：对象池、缓存池、内存池的区别.md",
-    "docs/obsidian-vault/【Blog】博客文章/个人项目/帧同步3D格斗游戏/帧同步3D格斗游戏.md",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/网络同步：状态帧同步方案总结.md",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端基础/Unity客户端学习路线（初版）.md",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/场景、快照序列化方案.md",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/网络可靠UDP实践.md",
-    "docs/【Note】学习笔记/其他/知识点目录/技术栈.md",
-    "docs/【Note】学习笔记/其他/知识点目录/设计模式.md",
-    "docs/【Note】学习笔记/其他/知识点目录/项目面试逐字稿.md",
-    "docs/【Note】学习笔记/其他/知识点目录/C++ C14~26能用的一些特性.md",
-    "docs/【Note】学习笔记/其他/知识点目录/算法总览.md",
-    "docs/【Note】学习笔记/其他/知识点目录/数学.md",
-    "docs/【Note】学习笔记/其他/学习计划.md",
-    "docs/【Note】学习笔记/算法与数据结构/每日一题.md",
-    "docs/【Note】学习笔记/其他/11月问题记录.md",
-    "docs/【Note】学习笔记/计算机系统/03 内存管理.md",
+    "docs/obsidian-vault/【Blog】博客文章/个人项目/编译链接，装载与库.md",
+    "踩坑过程.md",
+    "docs/【Note】学习笔记/C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
+    "编译、装载与库.md",
+    "images/Pasted image 20250728112355.png",
+    "docs/【Note】学习笔记/C++/Effective C++读书笔记/《Effective Modern C++》读书笔记.md",
+    "docs/obsidian-vault/【Blog】博客文章/其他/SHELL 编程快速入门.md",
+    "docs/obsidian-vault/【Blog】博客文章/其他/UE转小程序--WebAssembly分包实践.md",
+    "docs/obsidian-vault/【Blog】博客文章/其他/优化UE代码大小.md",
+    "docs/obsidian-vault/【Blog】博客文章/其他",
+    "docs/obsidian-vault/【Blog】博客文章/个人项目/BUILD流程分析.md",
     "images/Pasted image 20250720021112.png",
     "images/Pasted image 20250720021047.png",
+    "docs/【Note】学习笔记/计算机系统/res/05 内核.md",
+    "docs/【Note】学习笔记/算法与数据结构/每日一题.md",
+    "docs/【Note】学习笔记/算法与数据结构/leetcode hot100 三刷.md",
+    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/帧同步/基于配置&逻辑-数据分离【技能系统】初总结.md",
+    "images/Pasted image 20250730164812.png",
+    "images/a7ac9a540630a8c561a7e4c6fb984881_720.jpg",
+    "docs/obsidian-vault/【Blog】博客文章/游戏客户端基础/Unity&xLua热更新入门(一) Lua语言快速介绍.md",
+    "docs/【Note】学习笔记/其他/知识点目录/C和C++知识点总结.md",
+    "docs/obsidian-vault/【Blog】博客文章/图形/【全局光照】Unity DDGI 技术实践总结.md",
+    "docs/obsidian-vault/【Blog】博客文章/个人项目/帧同步3D格斗游戏/帧同步3D格斗游戏.md",
+    "docs/【Note】学习笔记/其他/知识点目录/C++ C14~26能用的一些特性.md",
+    "docs/【Note】学习笔记/C++/C++ 网站.md",
+    "docs/【Note】学习笔记/C++/代码书写/对象基础函数及变量书写注意事项.md",
+    "docs/【Note】学习笔记/其他/知识点目录/CryDust引擎开发.md",
+    "docs/【Note】学习笔记/其他/知识点目录/知识点目录.md",
+    "docs/【Note】学习笔记/工作与求职/面试技巧/反问.md",
     "docs/【Note】学习笔记/工作与求职/面试技巧",
     "images/Pasted image 20250701010932.png",
+    "docs/【Note】学习笔记/其他/知识点目录/快速过简历.md",
+    "docs/【Note】学习笔记/其他/知识点目录/技术栈.md",
     "images/fb1a7fb2711cd394e1b6ee018d680753.jpeg",
     "images/03336a2882affa941539e640ffc6bd87.jpeg",
     "docs/obsidian-vault/【Blog】博客文章/个人项目/帧同步3D格斗游戏",
     "docs/obsidian-vault/【Blog】博客文章/个人项目",
     "images/Pasted image 20250628205954.png",
     "images/Pasted image 20250628205711.png",
-    "images/Pasted image 20250628205539.png",
-    "images/Pasted image 20250628155727.png",
-    "images/Pasted image 20250628170759.png",
     "docs/obsidian-vault/【Blog】博客文章/图形",
     "docs/【Note】学习笔记/算法与数据结构/堆"
   ]
