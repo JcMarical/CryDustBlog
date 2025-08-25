@@ -8,49 +8,105 @@
         "type": "tabs",
         "children": [
           {
+            "id": "1656bbf1ff446a68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/【Note】学习笔记/算法与数据结构/labuladong 刷题记录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "labuladong 刷题记录"
+            }
+          },
+          {
             "id": "977620c8c6df4b0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/【Note】学习笔记/C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
+                "file": "docs/【Note】学习笔记/计算机系统/02 内存管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "《Effective C++》读书笔记 2-构造、析构、赋值运算"
+              "title": "02 内存管理"
             }
           },
           {
-            "id": "fed33c5fdd74e39f",
+            "id": "455a7173043e95a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/obsidian-vault/【Blog】博客文章/个人项目/BUILD流程分析.md",
+                "file": "docs/【Note】学习笔记/其他/Lua/Lua和C Sharp内存管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BUILD流程分析"
+              "title": "Lua和C Sharp内存管理"
             }
           },
           {
-            "id": "e8d1e6fdffef557e",
+            "id": "2ea911ea7083d1a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "踩坑过程.md",
+                "file": "docs/【Note】学习笔记/算法与数据结构/leetcode hot100 三刷.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "踩坑过程"
+              "title": "leetcode hot100 三刷"
+            }
+          },
+          {
+            "id": "1923c61d6475b72c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/【Note】学习笔记/计算机系统/07 无锁编程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "07 无锁编程"
+            }
+          },
+          {
+            "id": "c7d7b6f5cf0ed8ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/【Note】学习笔记/工作与求职/面经/2026秋/战某厂.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "战某厂"
+            }
+          },
+          {
+            "id": "62b11d9193944979",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/【Note】学习笔记/计算机系统/10 无锁编程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10 无锁编程"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -82,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "背包问题",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,26 +158,12 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "70eb4192a6250541",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/obsidian-vault/【Blog】博客文章/个人项目/编译链接，装载与库.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "编译链接，装载与库"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 522.5
+    "width": 360.50499725341797
   },
   "right": {
     "id": "03ea671b5434489d",
@@ -137,8 +179,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/网络同步：状态帧同步方案总结.md",
-                "collapseAll": false,
+                "file": "docs/【Note】学习笔记/工作与求职/面经/未命名.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -147,7 +189,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "网络同步：状态帧同步方案总结 的反向链接列表"
+              "title": "未命名 的反向链接列表"
             }
           },
           {
@@ -185,24 +227,25 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/网络同步：状态帧同步方案总结.md",
+                "file": "docs/【Note】学习笔记/计算机系统/10 无锁编程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "网络同步：状态帧同步方案总结 的大纲"
+              "title": "10 无锁编程 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -211,47 +254,51 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a6e490ec02fbee4e",
+  "active": "62b11d9193944979",
   "lastOpenFiles": [
-    "docs/obsidian-vault/【Blog】博客文章/个人项目/编译链接，装载与库.md",
-    "踩坑过程.md",
-    "docs/【Note】学习笔记/C++/Effective C++读书笔记/《Effective C++》读书笔记 2-构造、析构、赋值运算.md",
-    "编译、装载与库.md",
-    "images/Pasted image 20250728112355.png",
-    "docs/【Note】学习笔记/C++/Effective C++读书笔记/《Effective Modern C++》读书笔记.md",
-    "docs/obsidian-vault/【Blog】博客文章/其他/SHELL 编程快速入门.md",
-    "docs/obsidian-vault/【Blog】博客文章/其他/UE转小程序--WebAssembly分包实践.md",
-    "docs/obsidian-vault/【Blog】博客文章/其他/优化UE代码大小.md",
-    "docs/obsidian-vault/【Blog】博客文章/其他",
-    "docs/obsidian-vault/【Blog】博客文章/个人项目/BUILD流程分析.md",
+    "docs/【Note】学习笔记/计算机系统/03 进程、线程、协程.md",
+    "docs/【Note】学习笔记/计算机系统/10 无锁编程.md",
+    "docs/【Note】学习笔记/计算机系统/07 IO输入.md",
+    "docs/【Note】学习笔记/计算机系统/死锁.md",
+    "docs/【Note】学习笔记/计算机系统/08 网络IO.md",
+    "docs/【Note】学习笔记/工作与求职/面经/2026秋/战某厂.md",
+    "docs/【Note】学习笔记/算法与数据结构/ACWing/动态规划--（一）背包问题.md",
+    "images/Pasted image 20250823150345.png",
+    "docs/【Note】学习笔记/算法与数据结构/堆/TOPK.md",
+    "docs/【Note】学习笔记/算法与数据结构/堆/堆排序.md",
+    "docs/【Note】学习笔记/算法与数据结构/堆/堆建立.md",
+    "docs/【Note】学习笔记/算法与数据结构/进阶思想/原地哈希.md",
+    "docs/【Note】学习笔记/算法与数据结构/十大排序算法/3.插入排序.md",
+    "docs/【Note】学习笔记/算法与数据结构/十大排序算法/0.排序的关键指标.md",
+    "docs/【Note】学习笔记/算法与数据结构/进阶思想",
+    "docs/【Note】学习笔记/算法与数据结构/动态规划/题型总结/背包问题.md",
+    "docs/【Note】学习笔记/其他/知识点目录/算法总览.md",
+    "docs/【Note】学习笔记/算法与数据结构/ACWing",
+    "docs/【Note】学习笔记/计算机系统/01 CPU与存储器.md",
+    "docs/【Note】学习笔记/其他/知识点目录/C和C++知识点总结.md",
+    "docs/【Note】学习笔记/其他/知识点目录/C++ C14~26能用的一些特性.md",
+    "docs/obsidian-vault/【Blog】博客文章/个人项目/TinyC小型编译器/词法分析.md",
+    "docs/【Note】学习笔记/算法与数据结构/labuladong 刷题记录.md",
+    "docs/【Note】学习笔记/算法与数据结构/leetcode hot100 三刷.md",
+    "docs/obsidian-vault/【Blog】博客文章/个人项目/TinyC小型编译器/TinyC小型编译器实现--基础目标.md",
+    "docs/obsidian-vault/【Blog】博客文章/个人项目/TinyC小型编译器/PCode模拟器（Python实现）.md",
+    "docs/obsidian-vault/【Blog】博客文章/个人项目/TinyC小型编译器/编译期基本流程.md",
+    "docs/obsidian-vault/【Blog】博客文章/个人项目/TinyC小型编译器/TinyC小型编译器实现--PCode中间代码.md",
+    "docs/obsidian-vault/【Blog】博客文章/个人项目/TinyC小型编译器",
+    "docs/【Note】学习笔记/计算机系统/05 文件系统.md",
+    "docs/【Note】学习笔记/工作与求职/面经/2026秋",
+    "images/2C9100C5.png",
     "images/Pasted image 20250720021112.png",
     "images/Pasted image 20250720021047.png",
-    "docs/【Note】学习笔记/计算机系统/res/05 内核.md",
-    "docs/【Note】学习笔记/算法与数据结构/每日一题.md",
-    "docs/【Note】学习笔记/算法与数据结构/leetcode hot100 三刷.md",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端进阶/帧同步/基于配置&逻辑-数据分离【技能系统】初总结.md",
-    "images/Pasted image 20250730164812.png",
-    "images/a7ac9a540630a8c561a7e4c6fb984881_720.jpg",
-    "docs/obsidian-vault/【Blog】博客文章/游戏客户端基础/Unity&xLua热更新入门(一) Lua语言快速介绍.md",
-    "docs/【Note】学习笔记/其他/知识点目录/C和C++知识点总结.md",
-    "docs/obsidian-vault/【Blog】博客文章/图形/【全局光照】Unity DDGI 技术实践总结.md",
-    "docs/obsidian-vault/【Blog】博客文章/个人项目/帧同步3D格斗游戏/帧同步3D格斗游戏.md",
-    "docs/【Note】学习笔记/其他/知识点目录/C++ C14~26能用的一些特性.md",
-    "docs/【Note】学习笔记/C++/C++ 网站.md",
-    "docs/【Note】学习笔记/C++/代码书写/对象基础函数及变量书写注意事项.md",
-    "docs/【Note】学习笔记/其他/知识点目录/CryDust引擎开发.md",
-    "docs/【Note】学习笔记/其他/知识点目录/知识点目录.md",
-    "docs/【Note】学习笔记/工作与求职/面试技巧/反问.md",
     "docs/【Note】学习笔记/工作与求职/面试技巧",
     "images/Pasted image 20250701010932.png",
-    "docs/【Note】学习笔记/其他/知识点目录/快速过简历.md",
-    "docs/【Note】学习笔记/其他/知识点目录/技术栈.md",
     "images/fb1a7fb2711cd394e1b6ee018d680753.jpeg",
     "images/03336a2882affa941539e640ffc6bd87.jpeg",
     "docs/obsidian-vault/【Blog】博客文章/个人项目/帧同步3D格斗游戏",
     "docs/obsidian-vault/【Blog】博客文章/个人项目",
     "images/Pasted image 20250628205954.png",
     "images/Pasted image 20250628205711.png",
+    "images/Pasted image 20250628205539.png",
     "docs/obsidian-vault/【Blog】博客文章/图形",
     "docs/【Note】学习笔记/算法与数据结构/堆"
   ]

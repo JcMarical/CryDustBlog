@@ -1,3 +1,4 @@
 - 字母异位词分组：方法并非最正确，慢了
 - [最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/)：做的慢，方法不够标准
+- 接雨水：一点思路没有
 - 
